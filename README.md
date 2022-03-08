@@ -3,9 +3,11 @@
 
 <div align="center"><a href="https://github.com/IsaacAlves7/chat-projects"><img src="https://i.gifer.com/origin/f9/f9889257dd191dc36b7d28d4578beeef.gif" height="377"></a></div>
 
-> 🚨 **Focus**: Solution Validation
+> 🚨 **Focus**: Focused in the Solution Validation!
 
 # Solution Validation
+
+# Prototype
 
 # Project Diagram 
 <div align="center"><img src=""></div>
