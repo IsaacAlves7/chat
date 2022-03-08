@@ -17,13 +17,18 @@
 ----
 
 # MERN stack
-<div align="center"><img src="https://camo.githubusercontent.com/d3fc2055e76737dfeb54e133fd0a0ee80db2810340eeb8b35a89db9cf044c6cb/68747470733a2f2f656d6f6a6970656469612d75732e73332e6475616c737461636b2e75732d776573742d312e616d617a6f6e6177732e636f6d2f7468756d62732f3132302f6170706c652f3238352f61746f6d2d73796d626f6c5f323639622d666530662e706e67" height="107"></div>
+<div align="center"><img src="https://camo.githubusercontent.com/d3fc2055e76737dfeb54e133fd0a0ee80db2810340eeb8b35a89db9cf044c6cb/68747470733a2f2f656d6f6a6970656469612d75732e73332e6475616c737461636b2e75732d776573742d312e616d617a6f6e6177732e636f6d2f7468756d62732f3132302f6170706c652f3238352f61746f6d2d73796d626f6c5f323639622d666530662e706e67" height="107"></div><br \>
+
+I'll show you all used technologies, in this case, i'm using the **MERN** stack (MongoDB, Express, React.js and Node.js) + **Socket.io**.
 
 ## MongoDB
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" height="277"></div><br \>
 
 ## Express
+<div align="center"><img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg" height="277"></div><br \>
 
 ## React.js
+<div align="center"><img src="https://camo.githubusercontent.com/accac71d5d4e61a129dc89eaac39d1c4c5437c44e18e085c2834a4297613ef50/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f72656163742d322e737667" height="277"></div><br \>
 
 ## Node.js
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="277"></div><br \>
