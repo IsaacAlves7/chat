@@ -4,6 +4,9 @@
 # Project Diagram 
 <div align="center"><img src=""></div>
 
+# MERN stack
+<div align="center"><img src="" height="277"></div>
+
 # Used Technologies
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="277"></div>
 
