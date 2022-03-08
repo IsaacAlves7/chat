@@ -1,4 +1,6 @@
 # Chat project
+<div align="center"><img src="https://i.gifer.com/origin/f9/f9889257dd191dc36b7d28d4578beeef.gif" height="270"></div>
+
 💬 It's a repository of chat projects.
 
 # Project Diagram 
