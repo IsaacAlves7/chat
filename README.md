@@ -9,6 +9,8 @@
 
 # Prototype
 
+# Architecture
+
 # Project Diagram 
 <div align="center"><img src=""></div>
 
