@@ -4,6 +4,9 @@
 # Project Diagram 
 <div align="center"><img src=""></div>
 
+# Used Technologies
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" height="277"></div>
+
 # WhatsApp Clone: base of this application
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/whatsapp-icon.svg" height="277"></div>
 
