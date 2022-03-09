@@ -126,11 +126,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # <a href="">NEW!</a> Customer App Integration
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/dot-net-core-7.svg" height="277"></div>
 
-<img src="https://github.com/jeaanca/fort-team/blob/master/app/src/assets/img/logo-full.png"><br>
-
----
-
-### Forty Team is a real-time conversation project
 
 ## About
 This project has the ambition to build a chat in real time using socket.io in javascript.
