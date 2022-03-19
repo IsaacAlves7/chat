@@ -30,6 +30,11 @@ code {
     monospace;
 }
 
+::selection{
+  color: #fff;
+  background-color: var(--main);
+}
+
 /* AUTOGLASS CHAT - Color Palette */
 :root {
   --main: #164194;
@@ -1177,6 +1182,7 @@ code {
 }
 
 /* App.js Template */
+
 /* .App {
   text-align: center;
 }
