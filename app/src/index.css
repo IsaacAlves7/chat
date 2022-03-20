@@ -32,7 +32,7 @@ code {
 
 ::selection{
   color: #fff;
-  background-color: var(--main);
+  background-color: var(--wds-cobalt-600);
 }
 
 /* AUTOGLASS CHAT - Color Palette */
@@ -1183,7 +1183,7 @@ code {
 
 /* App.js Template */
 
-/* .App {
+.App {
   text-align: center;
 }
 
@@ -1220,4 +1220,4 @@ code {
   to {
     transform: rotate(360deg);
   }
-} */
+} 
