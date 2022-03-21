@@ -1,4 +1,4 @@
-/* Website Page configuration */
+/* === Website Page configuration === */
 
 *:not(i){
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -23,6 +23,7 @@
 
 body {
   margin: 0;
+  background-color: var(--app-background);
 }
 
 code {
@@ -35,7 +36,32 @@ code {
   background-color: var(--wds-cobalt-600);
 }
 
-/* AUTOGLASS CHAT - Color Palette */
+/* | Standard Scroll Bar Overflow | */
+::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+  background: #dddddd47;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #bdbcbc; 
+}
+ 
+::-webkit-scrollbar-button {
+  background: transparent; 
+}
+ 
+::-webkit-scrollbar-corner {
+  background: transparent; 
+}
+ 
+::-webkit-scrollbar-resizer {
+  background: transparent; 
+}
+
+/* ===> AUTOGLASS CHAT - Color Palette <=== */
 :root {
   --main: #164194;
   --layer-0: -1;
@@ -1181,20 +1207,25 @@ code {
   --announcement-speaker-fill-rgb: 0,128,105;
 }
 
-/* App.js Template */
+/* react.js --> App.js Template */
 
 .App {
   text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  position: absolute;
+  left: 470px;
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: small;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: spin infinite 20s linear;
   }
 }
 
@@ -1213,11 +1244,11 @@ code {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-} 
+}  */
