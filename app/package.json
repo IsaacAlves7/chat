@@ -1,5 +1,6 @@
 {
-  "name": "app",
+  "name": "AUTOGLASS CHAT Front",
+  "description": "(Client Web App) follow the .app folder!",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

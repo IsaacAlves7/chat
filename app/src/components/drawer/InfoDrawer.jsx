@@ -1,6 +1,5 @@
 import { Drawer, Box, Typography, makeStyles } from "@material-ui/core";
 import { ArrowBack } from '@material-ui/icons';
-import { useState } from "react";
 import Profile from './Profile';
 
 const useStyles = makeStyles({
