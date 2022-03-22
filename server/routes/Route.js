@@ -3,6 +3,7 @@ import { response } from 'express';
 
 const route = express.Route();
 
+// Configurando a rota de autenticação
 route.post('/authChat', (req, res) => {
     response.send('Enviou a resposta!')
 })
