@@ -1,6 +1,9 @@
-import { AppBar,Toolbar,makeStyles } from "@material-ui/core";
+import { AppBar,Toolbar,makeStyles,Box } from "@material-ui/core";
 import Login from './account/Login';
 import '../index.css';
+import {AccountContext} from '../context/AccountProvider'
+import React, {useContext} from 'react';
+import ChatBox from './ChatBox'
 
 const useStyles = makeStyles({
     component: {
@@ -10,30 +13,25 @@ const useStyles = makeStyles({
         height: 200,
         backgroundColor: '#164194',
         boxShadow: 'none'
+    },
+    header: {
+        height: 127,
+        background: '#164194',
+        boxShadow: 'none'
     }
-
 })
 
 const Messenger = () => {
     const classes = useStyles();
+    const {account} = useContext(AccountContext);
     return (
-        <>
-          <AppBar className={classes.loginHeader}>
-              <strong class="App-logo">AUTOGLASS CHAT</strong>
+        <Box className={classes.component}>
+            <AppBar className={account ? classes.header : classes.loginHeader}>
               <Toolbar></Toolbar>
           </AppBar>
-          <Login/>
-        </>
-        
+          { account ? <ChatBox /> : <Login /> }
+        </Box>
     )
 }
-
-// export const WhatsappMessenger = () => {
-//     return (
-//         <>
-//          <p>Hello from WhatsappMessenger</p>
-//         </>
-//     )
-// }
 
 export default Messenger;

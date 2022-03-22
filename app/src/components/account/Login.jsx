@@ -3,24 +3,25 @@ import Button from '@mui/material/Button';
 import {GoogleLogin} from 'react-google-login';
 import { useContext } from 'react';
 import '../../index.css'
-
 import { AccountContext } from '../../context/AccountProvider';
+import {clientId} from '../../constants/data'
 
 const style = {
     dialogPaper: {
         height: '95%',
-        width: '60%',
-        marginTop: '12%'
+        width: '41%',
+        marginTop: '12%',
+        maxHeight: '100%',
+        maxWidth: '100%',
+        overflow: 'hidden'
     }
 }
 
 const Login = ({classes}) => {
-    const clientId = '538364591142-qrrbfmrb64f498felsa7o4uct93949k4.apps.googleusercontent.com';
-    
-    const {account, setAccount} = useContext(AccountContext);
+    const {setAccount} = useContext(AccountContext);
 
     const onLoginSuccess = (res) => {
-        console.log('Login successfuly!', res.profileObj);
+        // console.log('Login successfuly!', res.profileObj);
         setAccount(res.profileObj);
     }
 
@@ -43,8 +44,10 @@ const Login = ({classes}) => {
 		           <label for="room">Informe quem é você: </label>
 		           <select name="room" id="room">
 		           	  <option value="Consumidor">Consumidor</option>
-		           	  <option value="Segurador">Segurador/Corretor</option>
-		           	  <option value="Lojista">Lojista/Oficina</option>
+		           	  <option value="Segurador">Segurador</option>
+		           	  <option value="Corretor">Corretor</option>
+		           	  <option value="Lojista">Lojista</option>
+		           	  <option value="Oficina">Oficina</option>
 		           	  <option value="Atendente">Vendedor/Atendente autoglass</option>
 		           </select>
 		       </div>
@@ -67,8 +70,7 @@ const Login = ({classes}) => {
                 </Button>
             </Box>
         </Box>
-
-        </Dialog>
+    </Dialog>
     )
 }
 
