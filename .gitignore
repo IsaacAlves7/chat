@@ -1,2 +1,4 @@
 .app
 .server
+
+./app/src/service/

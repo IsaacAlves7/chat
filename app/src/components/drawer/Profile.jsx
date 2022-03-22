@@ -58,7 +58,7 @@ const Profile = () => {
           </Box>
 
           <Box className={classes.descriptionContainer}>
-            <Typography className={classes.description}>Os dados do seu perfil serão visíveis nos contatos.</Typography>
+            <Typography className={classes.description}>Os dados do seu perfil serão visíveis para a empresa.</Typography>
           </Box>
           
           <Box className={classes.nameContainer}>

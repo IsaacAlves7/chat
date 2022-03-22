@@ -1,21 +1,3 @@
-// IMPORTING...
-import express from "express";
-import Connection from "./database/db.js";
-import dotenv from "dotenv";
-
-// APP CONFIG
-const app = express();
-dotenv.config();
-
-// MIDDLEWARE
-
-// API ROUTES
-
-// DATABASE CONNECTION
-const username = process.env.MONGO_USERNAME;
-const password = process.env.MONGO_PASSWORD;
-Connection(username, password);
-
-// PORT
-const PORT = process.env.PORT || 9000;
-app.listen(PORT, () => console.log("\x1b[32m", `The server app is running successfully on http://localhost:${PORT}`));
+version https://git-lfs.github.com/spec/v1
+oid sha256:41cdd63b7ea10611e315f295579472c27be7fc8f31868091305743761fb6af50
+size 536

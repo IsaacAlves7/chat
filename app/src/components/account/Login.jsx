@@ -4,7 +4,8 @@ import {GoogleLogin} from 'react-google-login';
 import { useContext } from 'react';
 import '../../index.css'
 import { AccountContext } from '../../context/AccountProvider';
-import {clientId} from '../../constants/data'
+import {clientId} from '../../constants/data';
+import {addUser} from '../../service/api';
 
 const style = {
     dialogPaper: {
@@ -20,9 +21,10 @@ const style = {
 const Login = ({classes}) => {
     const {setAccount} = useContext(AccountContext);
 
-    const onLoginSuccess = (res) => {
-        // console.log('Login successfuly!', res.profileObj);
+    const onLoginSuccess = async (res) => {
+        console.log('Login successfuly!', res.profileObj);
         setAccount(res.profileObj);
+        await addUser(res.profileObj);
     }
 
     const onLoginFailure = () => {
