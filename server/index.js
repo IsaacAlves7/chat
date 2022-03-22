@@ -1,8 +1,12 @@
 // IMPORTING...
 import express from "express";
+import Connection from "./database/db.js";
 
 // APP CONFIG
 const app = express();
+
+// DATABASE CONNECTION
+Connection();
 
 // MIDDLEWARE
 
