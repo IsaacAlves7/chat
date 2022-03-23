@@ -9,3 +9,12 @@ export const addUser = async (data) => {
         console.log('Error while calling addUser API', error);
     }
 }
+
+export const getUsers = async () => {
+    try{
+        let response = await axios.get(`${URL}/users`) // Método POST para localhost na porta 9000
+        return response;
+    } catch (error) { // Tentar axios post até a condição for verdadeira, se der erro = exibir o erro
+        console.log('Error while calling addUser API', error);
+    }
+}

@@ -57,7 +57,7 @@ const Profile = () => {
           </Box>
 
           <Box className={classes.descriptionContainer}>
-            <Typography className={classes.description}>Todos os dados do seu perfil são vistos pela empresa.</Typography>
+            <Typography className={classes.description}>Tel: +55 21 99527-2677 | CNPJ: </Typography>
           </Box>
           
           <Box className={classes.nameContainer}>
