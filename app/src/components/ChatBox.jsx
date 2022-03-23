@@ -9,7 +9,8 @@ const useStyles = makeStyles({
         minWidth: 380
     },
     rightComponent: {
-        borderLeft: `1px solid rgba(0, 0, 0, 0.14)`
+        borderLeft: '1px solid rgba(0, 0, 0, 0.14)',
+        height: 57
     }
 })
 

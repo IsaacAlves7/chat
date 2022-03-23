@@ -5,9 +5,11 @@ const useStyles = makeStyles(theme => ({
     component: {
         background: '#fff',
         height: 43,
-        maginTop: 7,
+        marginBottom: 4.2,
+        marginTop: 4.2,
         display: 'flex',
         alignItems: 'center',
+        position: 'block'
     },
     search: {
         borderRadius: 8,
@@ -18,8 +20,9 @@ const useStyles = makeStyles(theme => ({
         marginBottom: 7,
         display: 'flex',
         alignItems: 'center',
-        height: '32px',
-        padding: '10px 10px'
+        height: '37px', // Aqui aumenta a barra de pesquisa
+        padding: '10px 10px',
+        width: '100%'
         // '&:hover': {
         //   backgroundColor: '#fff',
         // }
@@ -42,7 +45,7 @@ const Search = () => {
     const classes = useStyles();
 
     return (
-       <Box>
+       <Box className={classes.component}>
           <Box className={classes.search}>
             <Box className={classes.searchIcon}>
                 <SearchIcon fontSize='small'/>

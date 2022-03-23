@@ -30,11 +30,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+/* 
 ::selection{
   color: #fff;
-  background-color: var(--wds-cobalt-600);
-}
+  background-color: var(--wds-cobalt-400);
+} */
 
 /* | Standard Scroll Bar Overflow | */
 ::-webkit-scrollbar {
