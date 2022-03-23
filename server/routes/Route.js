@@ -1,11 +1,9 @@
 import express from 'express';
-import { response } from 'express';
+import { addUser } from '../controller/user-controller.js';
 
-const route = express.Route();
+const route = express.Router();
 
 // Configurando a rota de autenticação
-route.post('/authChat', (req, res) => {
-    response.send('Enviou a resposta!')
-})
+route.post('/authChat', addUser)
 
 export default route;

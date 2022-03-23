@@ -16,8 +16,7 @@ const useStyles = makeStyles({
      marginBottom: 28,
      borderRadius: '50%',
      '&:hover': {
-        opacity: '70%',
-        filter: 'grayscale(1)'
+        opacity: '70%'
       }
    },
    titleName: {
@@ -58,7 +57,7 @@ const Profile = () => {
           </Box>
 
           <Box className={classes.descriptionContainer}>
-            <Typography className={classes.description}>Os dados do seu perfil serão visíveis para a empresa.</Typography>
+            <Typography className={classes.description}>Todos os dados do seu perfil são vistos pela empresa.</Typography>
           </Box>
           
           <Box className={classes.nameContainer}>
