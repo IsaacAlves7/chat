@@ -6,11 +6,12 @@ import { AccountContext } from '../../context/AccountProvider';
 
 const useStyles = makeStyles({
     component: {
-        height: '81vh'
+        height: '81vh',
+        overflow: 'overlay'
     }
 });
 
-const Conversations = () => {
+const Conversations = ({ text }) => {
     const classes = useStyles();
     
     const [users, setUsers] = useState([]);
@@ -19,10 +20,11 @@ const Conversations = () => {
     useEffect(() => {
         const fetchData = async() => {
             const data = await getUsers();
-            setUsers(data);
+            const filteredData = data.filter(user => user.name.toLowerCase().includes(text.toLowerCase()));
+            setUsers(filteredData);
         }
         fetchData();
-    }, []);
+    }, [text]);
 
     return (
         <Box className={classes.component}>

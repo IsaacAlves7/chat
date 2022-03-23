@@ -29,7 +29,7 @@ const useStyles = makeStyles ({
         marginTop: 2,
         '& > *': {
             marginLeft: 2,
-            color:'#3b4a54',
+            color: '#476862',
             cursor: 'pointer'
         }
         // '& :first-child': {
