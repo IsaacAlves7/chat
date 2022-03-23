@@ -1,11 +1,20 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
 import { getUsers } from '../../service/api';
-import { Box } from '@material-ui/core';
+import { Box, makeStyles } from '@material-ui/core';
 import Conversation from './Conversation';
+import { AccountContext } from '../../context/AccountProvider';
+
+const useStyles = makeStyles({
+    component: {
+        height: '81vh'
+    }
+});
 
 const Conversations = () => {
-
+    const classes = useStyles();
+    
     const [users, setUsers] = useState([]);
+    const { account } = useContext(AccountContext);
 
     useEffect(() => {
         const fetchData = async() => {
@@ -16,10 +25,10 @@ const Conversations = () => {
     }, []);
 
     return (
-        <Box>
+        <Box className={classes.component}>
             {
               users.map(user => (
-                // user.googleId !== id
+                user.googleId !== account.googleId && 
                 <Conversation user={user}/>
               ))
             }

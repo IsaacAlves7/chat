@@ -4,12 +4,12 @@ import SearchIcon from '@mui/icons-material/Search';
 const useStyles = makeStyles(theme => ({
     component: {
         background: '#fff',
-        height: 43,
-        marginBottom: 4.2,
-        marginTop: 4.2,
+        height: 51.7,
+        top: 4.2,
         display: 'flex',
         alignItems: 'center',
-        position: 'block'
+        paddingBottom: '',
+        borderBottom: '1px solid #ebebeb'
     },
     search: {
         borderRadius: 8,
