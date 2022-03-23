@@ -24,19 +24,7 @@ const userSchema = new mongoose.Schema({
     familyName: {
         type: String,
         required: true
-    },
-    // ocupacao: {
-    //     type: String,
-    //     required: true
-    // },
-    // telefone: {
-    //     type: String,
-    //     required: true
-    // },
-    // cnpj: {
-    //     type: String,
-    //     required: true
-    // }
+    }
 })
 
 const user = mongoose.model('user', userSchema);
