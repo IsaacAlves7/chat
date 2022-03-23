@@ -1,5 +1,7 @@
 import { Box, Avatar, Typography, makeStyles } from '@material-ui/core';
 import { useContext } from 'react';
+import { AccountContext } from '../../context/AccountProvider';
+import { setConversation } from '../../service/api';
 
 const useStyles = makeStyles ({
     component: {
@@ -15,19 +17,30 @@ const useStyles = makeStyles ({
         borderRadius: '50%',
         marginLeft: 14
     },
+    contactName: {
+        marginLeft: 17,
+        marginTop: 4
+    }
 
 })
 
 const Conversation = ({ user }) => {
     const url = user.imageUrl;
     const classes = useStyles(useContext);
+    const {account} = useContext(AccountContext);
+    const setUser = () => {
+        setConversation({ 
+            senderId: account.googleId,
+            receiverId: user.googleId
+        });
+    }
     return (
-        <Box className={classes.component}>
+        <Box className={classes.component} onClick={() => setUser()}>
            <Box>
                <Avatar src={url} alt="contact-picture" className={classes.displayPicture}/>    
            </Box>
            <Box>
-               <Typography>{user.name}</Typography>
+               <Typography className={classes.contactName}>{user.name}</Typography>
            </Box>
         </Box>
     )
