@@ -9,7 +9,8 @@ const useStyles = makeStyles(theme => ({
         display: 'flex',
         alignItems: 'center',
         paddingBottom: '',
-        borderBottom: '1px solid #f0f2f5'
+        borderBottom: '1px solid #f0f2f5',
+        borderRight: '1px solid #ebebeb'
     },
     search: {
         borderRadius: 8,

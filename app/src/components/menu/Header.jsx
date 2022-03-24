@@ -12,7 +12,8 @@ const useStyles = makeStyles ({
         background: '#f0f2f5',
         padding: '10px 16px',
         display: 'flex',
-        alignItems: 'center'
+        alignItems: 'center',
+        borderRight: '1px solid #ccc'
     },
     avatar: {
     //     height: 37,

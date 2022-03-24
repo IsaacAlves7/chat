@@ -1,5 +1,8 @@
+// Material UI
 import {Dialog, withStyles, Box, makeStyles} from '@material-ui/core';
+// component
 import Menu from './menu/Menu';
+import Chat from  "./chat/Chat";
 
 const useStyles = makeStyles({
     component: {
@@ -9,8 +12,7 @@ const useStyles = makeStyles({
         minWidth: 380
     },
     rightComponent: {
-        borderLeft: '1px solid #ebebeb',
-        height: '100%'
+        width: '100%'
     }
 })
 
@@ -41,7 +43,7 @@ const ChatBox = ({ classes }) => {
               </Box>
               <Box className={classname.rightComponent}>
                   {/* Hello from rightComponent */}
-                  <ChatBot/>
+                  <Chat/>
               </Box>
           </Box>
         </Dialog>

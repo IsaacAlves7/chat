@@ -7,10 +7,11 @@ import { UserContext } from '../../context/UserProvider';
 const useStyles = makeStyles ({
     component: {
         display: 'flex',
-        height: 40,
+        height: '100%',
         borderTop: '1px solid #ebebeb',
         cursor: 'pointer',
-        padding: '13px 0'
+        padding: '13px 0',
+        borderRight: '1px solid #ebebeb'
     },
     displayPicture: {
         width: 50,

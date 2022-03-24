@@ -5,9 +5,9 @@ import { newConversation } from '../controller/conversation-controller.js';
 const route = express.Router();
 
 // Configurando a rota de autenticação
-route.post('/authChat', addUser);
-route.get('/users', getUsers);
+route.post('/user', addUser); // Add any user
+route.get('/users', getUsers); // Get any user
 
-route.post('/conversation/add', newConversation);
+route.post('/conversation/add', newConversation); // Add any conversation
 
 export default route;
