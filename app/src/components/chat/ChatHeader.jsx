@@ -1,6 +1,6 @@
 import {useContext} from 'react';
 import {UserContext} from '../../context/UserProvider';
-import {Box, Typography, makeStyles, Avatar} from '@material-ui/core';
+import {Box, Typography, makeStyles, Avatar, IconButton} from '@material-ui/core';
 import {Search, MoreVert} from '@material-ui/icons';
 
 const useStyles = makeStyles({
@@ -9,6 +9,30 @@ const useStyles = makeStyles({
         height: 57,
         background: '#f0f2f5',
         padding: '10px 16px',
+        alignItems: 'center'
+    },
+    dp: {
+        width: 37,
+        height: 37,
+        borderRadius: '50%',
+        padding: '0 2px'
+    },
+    name: {
+        marginLeft: 10,
+        fontSize: 16,
+        marginTop: 2
+    },
+    status: {
+        marginLeft: 10,
+        fontSize: 12,
+        color: 'gray',
+    },
+    rightContainer: {
+        marginLeft: 'auto',
+        '& > *': {
+            fontSize: 22,
+            color: '#476862'
+        }
     }
 });
 
@@ -19,14 +43,15 @@ const ChatHeader = () => {
     return (
         <>
          <Box className={classes.header}>
-            <Avatar src={person.imageUrl} alt="Your contact"/>
+            <Avatar src={person.imageUrl} alt="Your contact" className={classes.dp}/>
             <Box>
-                <Typography>{person.name}</Typography>
-                <Typography>User Status (Online, Typing, Offline, Removed, Stand By)</Typography>
+                <Typography className={classes.name}>{person.name}Isaac</Typography>
+                <Typography className={classes.status}>Person Status (Online, Typing, Offline, Removed, Stand By, Banied... etc)</Typography>
             </Box>
-            <Box>
-                <Search/>
-                <MoreVert/>
+            <Box className={classes.rightContainer}>
+                <IconButton><Search/></IconButton>
+                <IconButton><MoreVert/></IconButton>
+                
             </Box>
          </Box>
         </>

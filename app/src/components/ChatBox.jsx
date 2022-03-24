@@ -12,7 +12,9 @@ const useStyles = makeStyles({
         minWidth: 380
     },
     rightComponent: {
-        width: '100%'
+        width: '100%',
+        minWidth: 300,
+        height: '100%'
     }
 })
 
