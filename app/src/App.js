@@ -2,14 +2,17 @@ import './index.css';
 import Messenger from './components/Messenger'; // the same thing of import Mess as Messenger from './components/Messenger'
 // import {WhatsappMessenger} from './components/Messenger'; importando mais de uma função no mesmo arquivo
 import AccountProvider from './context/AccountProvider';
-import TemplateProvider from './components/theme/TemplateProvider'
+import TemplateProvider from './components/theme/TemplateProvider';
+import UserProvider from './context/UserProvider';
 
 function App() { // Toda função de return(), dentro dela, necessita da tag de exportação para iniciar o overrides de importação
   return ( // Caso sejam Tags HTML5 necessitam que sejam encadeadas pelas tais (<></> Tag vazia = recomendado)
         <TemplateProvider>
-          <AccountProvider>
-            <Messenger/> {/* Aqui ela está chamando a função de importação para dentro da função do App */}
-          </AccountProvider>
+          <UserProvider>
+            <AccountProvider>
+              <Messenger/> {/* Aqui ela está chamando a função de importação para dentro da função do App */}
+            </AccountProvider>
+          </UserProvider>
         </TemplateProvider>
   );
 }

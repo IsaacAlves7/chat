@@ -40,7 +40,8 @@ const ChatBox = ({ classes }) => {
                   {/*<p>Hello from menu</p> */}
               </Box>
               <Box className={classname.rightComponent}>
-                  Hello from rightComponent
+                  {/* Hello from rightComponent */}
+                  <ChatBot/>
               </Box>
           </Box>
         </Dialog>
