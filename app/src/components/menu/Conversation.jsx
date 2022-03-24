@@ -7,11 +7,13 @@ import { UserContext } from '../../context/UserProvider';
 const useStyles = makeStyles ({
     component: {
         display: 'flex',
-        height: '100%',
+        height: 77,
         borderTop: '1px solid #ebebeb',
         cursor: 'pointer',
         padding: '13px 0',
-        borderRight: '1px solid #ebebeb'
+        '&:hover': {
+            background: '#f8f8f8'
+        }
     },
     displayPicture: {
         width: 50,
@@ -41,7 +43,7 @@ const Conversation = ({ user }) => {
         });
     }
     return (
-        <Box className={classes.component} onClick={() => setUser()}>
+        <Box className={classes.component} onClick={() => setUser()} title={user.name}>
            <Box>
                <Avatar src={url} alt="contact-picture" className={classes.displayPicture}/>    
            </Box>

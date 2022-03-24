@@ -7,7 +7,8 @@ import { AccountContext } from '../../context/AccountProvider';
 const useStyles = makeStyles({
     component: {
         height: '81vh',
-        overflow: 'overlay'
+        overflow: 'overlay',
+        borderRight: '1px solid #ebebeb'
     }
 });
 

@@ -49,14 +49,6 @@ code {
   background: #bdbcbc; 
 }
  
-::-webkit-scrollbar-button {
-  background: transparent; 
-}
- 
-::-webkit-scrollbar-corner {
-  background: transparent; 
-}
- 
 ::-webkit-scrollbar-resizer {
   background: transparent; 
 }
