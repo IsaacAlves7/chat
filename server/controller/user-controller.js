@@ -1,9 +1,8 @@
-import { request } from 'express';
 import User from '../model/User.js';
 
 export const addUser = async (req, res) => {
     try{
-      let exist = await User.findOne({ googleId: request.body.googleId });
+      let exist = await User.findOne({ googleId: req.body.googleId });
 
       if(exist){
           res.status(200).json('User already exists!');

@@ -29,10 +29,7 @@ const Conversations = ({ text }) => {
     return (
         <Box className={classes.component}>
             {
-              users.map(user => (
-                user.googleId !== account.googleId && 
-                <Conversation user={user}/>
-              ))
+              users.map(user => ( user.googleId !== account.googleId && <Conversation user={user}/>))
             }
         </Box>
     )
