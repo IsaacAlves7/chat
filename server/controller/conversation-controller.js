@@ -5,7 +5,6 @@ export const newConversation = async (req, res) => {
     let receiverId = req.body.receiverId;
 
     try{
-
         const exist = await Conversation.findOne({ members: {$all: [receiverId, senderId]}});
 
         if(exist){

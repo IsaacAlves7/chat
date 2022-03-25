@@ -2,7 +2,7 @@ import { Box, Avatar, Typography, makeStyles } from '@material-ui/core';
 import { useContext } from 'react';
 import { AccountContext } from '../../context/AccountProvider';
 import { setConversation } from '../../service/api';
-import { UserContext } from '../../context/UserProvider';
+// import { UserContext } from '../../context/UserProvider';
 
 const useStyles = makeStyles ({
     component: {
@@ -12,7 +12,7 @@ const useStyles = makeStyles ({
         cursor: 'pointer',
         padding: '13px 0',
         '&:hover': {
-            background: '#f8f8f8'
+            background: '#dddddd77'
         }
     },
     displayPicture: {

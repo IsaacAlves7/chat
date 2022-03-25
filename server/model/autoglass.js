@@ -1,3 +1,4 @@
+//  Schema dos dados dos usuários do Chat
 import mongoose from "mongoose";
 
 const autoglassSchema = new mongoose.Schema({
