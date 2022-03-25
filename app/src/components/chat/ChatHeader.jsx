@@ -1,7 +1,7 @@
-import {useContext} from 'react';
-import {UserContext} from '../../context/UserProvider';
-import {Box, Typography, makeStyles, Avatar, IconButton} from '@material-ui/core';
-import {Search, MoreVert} from '@material-ui/icons';
+import { useContext } from 'react';
+import { Box, Typography, makeStyles, Avatar, IconButton } from '@material-ui/core';
+import { Search, MoreVert } from '@material-ui/icons';
+import { UserContext } from '../../context/UserProvider';
 
 const useStyles = makeStyles({
     header: {
@@ -14,8 +14,7 @@ const useStyles = makeStyles({
     dp: {
         width: 37,
         height: 37,
-        borderRadius: '50%',
-        padding: '0 2px'
+        borderRadius: '50%'
     },
     name: {
         marginLeft: 10,
@@ -36,26 +35,23 @@ const useStyles = makeStyles({
     }
 });
 
-const ChatHeader = ({ }) => {
+const ChatHeader = () => {
     const classes = useStyles();
     
-    const { person } = useContext(UserContext);
+    const {person} = useContext(UserContext);
 
     return (
-        <>
          <Box className={classes.header}>
-            <Avatar src={classes.imageUrl} alt="Your contact" className={classes.dp}/>
+            <Avatar src={person.imageUrl} alt="Your contact" className={classes.dp}/>
             <Box>
                 <Typography className={classes.name}>{person.name}</Typography>
-                <Typography className={classes.status} title={person.status}></Typography>
+                <Typography className={classes.status} title={person.status}>{person.status}Online</Typography>
             </Box>
             <Box className={classes.rightContainer}>
                 <IconButton title='Pesquisar...'><Search/></IconButton>
                 <IconButton title='Mais opções'><MoreVert/></IconButton>
             </Box>
-         </Box>
-        </>
-        
+         </Box>  
     )
 }
 

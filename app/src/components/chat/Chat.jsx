@@ -5,7 +5,6 @@ import Messages from './Messages';
 
 const Chat = () => {
     return (
-        // <p>Hello from Chat</p>
          <Box>
            <ChatHeader/>
            <Messages/>

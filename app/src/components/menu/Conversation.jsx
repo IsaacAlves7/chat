@@ -2,7 +2,7 @@ import { Box, Avatar, Typography, makeStyles } from '@material-ui/core';
 import { useContext } from 'react';
 import { AccountContext } from '../../context/AccountProvider';
 import { setConversation } from '../../service/api';
-// import { UserContext } from '../../context/UserProvider';
+import { UserContext } from '../../context/UserProvider';
 
 const useStyles = makeStyles ({
     component: {
@@ -32,11 +32,10 @@ const Conversation = ({ user }) => {
     const url = user.imageUrl;
     const classes = useStyles(useContext);
     const {account} = useContext(AccountContext);
-    const {setPerson} = useContext(AccountContext);
+    const {setPerson} = useContext(UserContext);
     
     const setUser = async () => {
         setPerson(user);
-        
         await setConversation({ 
             senderId: account.googleId,
             receiverId: user.googleId
