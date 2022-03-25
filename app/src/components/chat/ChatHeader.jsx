@@ -37,7 +37,6 @@ const useStyles = makeStyles({
 
 const ChatHeader = () => {
     const classes = useStyles();
-    
     const {person} = useContext(UserContext);
 
     return (
@@ -45,7 +44,7 @@ const ChatHeader = () => {
             <Avatar src={person.imageUrl} alt="Your contact" className={classes.dp}/>
             <Box>
                 <Typography className={classes.name}>{person.name}</Typography>
-                <Typography className={classes.status} title={person.status}>{person.status}Online</Typography>
+                <Typography className={classes.status} title={person.status}>{person.status}online</Typography>
             </Box>
             <Box className={classes.rightContainer}>
                 <IconButton title='Pesquisar...'><Search/></IconButton>
