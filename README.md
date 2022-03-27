@@ -46,7 +46,7 @@ In additional, has been made one implementation with the Socket.io library, the 
 - <a href="">firebase.js ()</a>
 - <a href="">VS Code ()</a>
 ### Directories (Folders and files of the Application)
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/160254373-904dfb69-ff45-4aaa-939a-85821848633b.png"></div><br \>
+<div align="center"><img src="https://user-images.githubusercontent.com/61624336/160254373-904dfb69-ff45-4aaa-939a-85821848633b.png" width="100%"></div><br \>
 
 First of all, enter in the project folder and i'll explain all about the directories and files of this project:
 
