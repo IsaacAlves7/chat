@@ -1,4 +1,4 @@
-<img src="https://fabricadecursos.com.br/wp-content/uploads/2020/04/cases-autoglass.jpg" width="100%">
+<a href="https://github.com/IsaacAlves7/chat-projects"><img src="https://fabricadecursos.com.br/wp-content/uploads/2020/04/cases-autoglass.jpg" width="100%"></a>
 
 # AUTOGLASS CHAT
 It's a project of **private Chat web application** for the AUTOGLASS company and his users. This application was made with *MERN* stack (MongoDB, Express, React.js and Node.js) + *Socket.io* + *GCP Authentication API* + *JWT*.
