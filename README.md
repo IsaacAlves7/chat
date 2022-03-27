@@ -68,7 +68,7 @@ First of all, enter in the project folder and i'll explain all about the directo
 
 - `README.md` is the documentation of the project written in Markdown (optional).
 
-### Execution order to start on terminal
+### Execution order to start the app on terminal
 This project has an execution order on terminal, follow the steps below:
 
 1. Run the `socket` directory on `./socket/index.js` directory:
