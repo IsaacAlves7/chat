@@ -23,7 +23,7 @@ In additional, has been made one implementation with the Socket.io library, the 
 - <a href="https://expressjs.com/pt-br/">Express (v4.17.1)</a>
 - <a href="https://pt-br.reactjs.org/">React.js (v17.0.2)</a>
 - <a href="https://nodejs.org/en/">Node.js (v16.14.0)</a>
-- 
+
 ### Package manager
 - <a href="https://www.npmjs.com/">NPM (v8.3.1)</a>
 
