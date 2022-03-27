@@ -112,7 +112,8 @@ export const clientId = '<googleId>';
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/jwt-3.svg" width="177em"></div><br \>
 
 ## RESTful API/ REST API
-<div align="center"><img src="https://user-images.githubusercontent.com/8939680/57233882-20344080-6fe5-11e9-9086-d20a955bed59.png" width="17.3%"><img src="https://www.rlogical.com/wp-content/uploads/2021/08/rest-api-model.png" width="47%"></div><br \>
+<div align="center"><img src="https://user-images.githubusercontent.com/8939680/57233882-20344080-6fe5-11e9-9086-d20a955bed59.png" width="17.3%"><img src="https://www.rlogical.com/wp-content/uploads/2021/08/rest-api-model.png" width="47%"></div>
+
 <div align="center">
 <details><summary><b title="(click to open)">⚙️ REST API with Axios library</b></summary>
 <div align="center">
@@ -159,6 +160,17 @@ Pelo peso dos arquivos com extensão `.js` e `.css` estarem sobrecarregando a ca
 
 # View (Front-End/ Client project)
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" width="177em"></div><br \>
+
+<div align="center">
+<details><summary><b title="(click to open)">⚙️ REST API with Axios library</b></summary>
+<div align="center">
+
+<div align="center"><img src="https://bezkoder.com/wp-content/uploads/2020/03/react-node-express-mongodb-mern-stack-example-architecture.png" width="87%"></div><br \>
+
+</div>
+
+</details>
+</div>
 
 This project resides on `.client`
 # Getting Started with Create React App
@@ -235,18 +247,49 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ---
 
 # Controller (Back-End/ Server project)
-<div align="center"><img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" width="177em">&nbsp;&nbsp;&nbsp;<img src="https://symbols.getvecta.com/stencil_79/88_expressjs-icon.54bb6035d3.svg" width="277em"></div><br \>
+<div align="center"><img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" width="177em"></div>
+
+<div align="center">
+<details><summary><b title="(click to open)">⚙️ REST API with Axios library</b></summary>
+<div align="center">
+<img src="https://symbols.getvecta.com/stencil_79/88_expressjs-icon.54bb6035d3.svg" width="277em">
+</div>
+
+</details>
+</div>
 
 The **controller** is where the traffic of the application is controlled by routes and the API.
 
 ---
 # Model (ODM Back-End)
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" width="177em"><img src="https://miro.medium.com/max/370/1*jO715XDC1YAEsWUwovWUQw.png" width="277em"></div><br \>
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" width="177em"><img src="https://miro.medium.com/max/370/1*jO715XDC1YAEsWUwovWUQw.png" width="277em"></div>
+
+<div align="center">
+<details><summary><b title="(click to open)">⚙️ REST API with Axios library</b></summary>
+<div align="center">
+
+<div align="center"><img src="https://bezkoder.com/wp-content/uploads/2020/03/react-node-express-mongodb-mern-stack-example-architecture.png" width="87%"></div><br \>
+
+</div>
+
+</details>
+</div>
 
 ---
 
 # Socket.io (The bidirectional real-time execution)
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/socket-io.svg" width="177em"></div><br \>
+
+<div align="center">
+<details><summary><b title="(click to open)">⚙️ REST API with Axios library</b></summary>
+<div align="center">
+
+<div align="center"><img src="https://bezkoder.com/wp-content/uploads/2020/03/react-node-express-mongodb-mern-stack-example-architecture.png" width="87%"></div><br \>
+
+</div>
+
+</details>
+</div>
 
 The **Socket.io** is a realtime application framework (Node.JS server). This enables real-time bidirectional event-based communication. It consists of:
 
