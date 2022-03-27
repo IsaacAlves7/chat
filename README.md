@@ -23,8 +23,10 @@ In additional, has been made one implementation with the Socket.io library, the 
 - <a href="https://expressjs.com/pt-br/">Express (v4.17.1)</a>
 - <a href="https://pt-br.reactjs.org/">React.js (v17.0.2)</a>
 - <a href="https://nodejs.org/en/">Node.js (v16.14.0)</a>
+- 
 ### Package manager
 - <a href="https://www.npmjs.com/">NPM (v8.3.1)</a>
+
 ### Dependences
 - <a href="https://www.npmjs.com/package/moment">Moment ()</a>
 - <a href="https://www.npmjs.com/package/axios">Axios ()</a>
@@ -37,6 +39,7 @@ In additional, has been made one implementation with the Socket.io library, the 
 - <a href="">react-google-login ()</a>
 - <a href="">JWT ()</a>
 - <a href="">Material-UI ()</a>
+
 ### Developer tools
 - <a href="">Git LFS - Large Files Storage ()</a>
 - <a href="">Git ()</a>
@@ -45,6 +48,7 @@ In additional, has been made one implementation with the Socket.io library, the 
 - <a href="">launch.json ()</a>
 - <a href="">firebase.js ()</a>
 - <a href="">VS Code ()</a>
+
 ### Directories (Folders and files of the Application)
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/160254373-904dfb69-ff45-4aaa-939a-85821848633b.png" width="100%"></div><br \>
 
@@ -159,7 +163,7 @@ Pelo peso dos arquivos com extensão `.js` e `.css` estarem sobrecarregando a ca
 ---
 
 # View (Front-End/ Client project)
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" width="177em"></div><br \>
+<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" width="177em"></div>
 
 <div align="center">
 <details><summary><b title="(click to open)">⚙️ REST API with Axios library</b></summary>
@@ -173,6 +177,7 @@ Pelo peso dos arquivos com extensão `.js` e `.css` estarem sobrecarregando a ca
 </div>
 
 This project resides on `.client`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
