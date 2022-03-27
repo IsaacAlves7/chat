@@ -117,8 +117,6 @@ export const clientId = '<googleId>';
 <details><summary><b title="(click to open)">⚙️ REST API with Axios library</b></summary>
 <div align="center">
 
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/json.svg" width="177em"></div><br \>
-
 <div align="center"><img src="https://bezkoder.com/wp-content/uploads/2020/03/react-node-express-mongodb-mern-stack-example-architecture.png" width="87%"></div><br \>
 
 </div>
