@@ -303,15 +303,15 @@ The **controller** is where the traffic of the application is controlled by rout
 </details>
 </div>
 
-The **Socket.io** is a realtime application framework (Node.JS server). This enables real-time bidirectional event-based communication. It consists of:
+O **Socket.io** é um framework/ biblioteca para execução e comunicação bidirecional em tempo real para aplicações. Isso consiste em:
 
-- a Node.js server (this repository);
-- a Javascript client library for the browser (or a Node.js client).
+- um servidor Node.js;
+- uma biblioteca cliente Javascript para o navegador (ou um cliente Node.js).
 
 ---
 
 # Autor do projeto
-This project was made by **HeadMind Partners** (ex-Beijaflore) company.
+Esse projeto foi feito pela empresa **HeadMind Partners Brasil**: 
 
 | [<img src="https://media-exp1.licdn.com/dms/image/C4D0BAQEy1FNaUiE1dw/company-logo_200_200/0/1641465970668?e=1656547200&v=beta&t=ctTiEK8RvXTv5HRyfkVySu3JXgjuSr8_qwT8jvscWU4" width="110"><br><sub>HeadMind Partners</sub>](https://www.headmind.com/pt/) | [<img src="https://avatars.githubusercontent.com/u/61624336?v=4" width="110"><br><sub>@IsaacAlves7 - trainee</sub>](https://github.com/IsaacAlves7) 
 |:-:|:-:|
