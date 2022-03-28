@@ -37,8 +37,8 @@ In additional, has been made one implementation with the Socket.io library, the 
 - <a href="https://www.npmjs.com/package/mongoose">Mongoose (v5.13.0)</a>
 - <a href="https://www.npmjs.com/package/multer">Multer (v1.4.2)</a>
 - <a href="https://www.npmjs.com/package/react-google-login">react-google-login (v5.2.2)</a>
-- <a href="">JWT (v)</a>
-- <a href="">Material-UI (v)</a>
+- <a href="https://www.npmjs.com/package/socket.io-client">socket.io-client (v4.1.2)</a>
+- <a href="https://mui.com/pt/">Material-UI (v4.11.4)</a>
 
 ### Developer tools
 - <a href="">Git LFS - Large Files Storage ()</a>
