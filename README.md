@@ -28,17 +28,17 @@ In additional, has been made one implementation with the Socket.io library, the 
 - <a href="https://www.npmjs.com/">NPM (v8.3.1)</a>
 
 ### Dependences
-- <a href="https://www.npmjs.com/package/moment">Moment (v)</a>
+- <a href="https://www.npmjs.com/package/moment">Moment (v2.29.1)</a>
 - <a href="https://www.npmjs.com/package/axios">Axios (v0.21.1)</a>
-- <a href="https://www.npmjs.com/package/cors">Cors ()</a>
-- <a href="">Body-parser (v1.19.0)</a>
-- <a href="">Nodemon (v2.0.9)</a>
-- <a href="">Dot-Env (v10.0.0)</a>
-- <a href="">Mongoose ()</a>
-- <a href="">Multer ()</a>
-- <a href="">react-google-login (v5.2.2)</a>
-- <a href="">JWT ()</a>
-- <a href="">Material-UI ()</a>
+- <a href="https://www.npmjs.com/package/cors">Cors (v2.8.5)</a>
+- <a href="https://www.npmjs.com/package/body-parser">Body-parser (v1.19.0)</a>
+- <a href="https://www.npmjs.com/package/nodemon">Nodemon (v2.0.9)</a>
+- <a href="https://www.npmjs.com/package/dot-env">Dot-Env (v10.0.0)</a>
+- <a href="https://www.npmjs.com/package/mongoose">Mongoose (v5.13.0)</a>
+- <a href="https://www.npmjs.com/package/multer">Multer (v1.4.2)</a>
+- <a href="https://www.npmjs.com/package/react-google-login">react-google-login (v5.2.2)</a>
+- <a href="">JWT (v)</a>
+- <a href="">Material-UI (v)</a>
 
 ### Developer tools
 - <a href="">Git LFS - Large Files Storage ()</a>
