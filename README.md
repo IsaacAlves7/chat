@@ -28,15 +28,15 @@ In additional, has been made one implementation with the Socket.io library, the 
 - <a href="https://www.npmjs.com/">NPM (v8.3.1)</a>
 
 ### Dependences
-- <a href="https://www.npmjs.com/package/moment">Moment ()</a>
-- <a href="https://www.npmjs.com/package/axios">Axios ()</a>
+- <a href="https://www.npmjs.com/package/moment">Moment (v)</a>
+- <a href="https://www.npmjs.com/package/axios">Axios (v0.21.1)</a>
 - <a href="https://www.npmjs.com/package/cors">Cors ()</a>
-- <a href="">Body-parser ()</a>
-- <a href="">Nodemon ()</a>
-- <a href="">Dot-Env ()</a>
+- <a href="">Body-parser (v1.19.0)</a>
+- <a href="">Nodemon (v2.0.9)</a>
+- <a href="">Dot-Env (v10.0.0)</a>
 - <a href="">Mongoose ()</a>
 - <a href="">Multer ()</a>
-- <a href="">react-google-login ()</a>
+- <a href="">react-google-login (v5.2.2)</a>
 - <a href="">JWT ()</a>
 - <a href="">Material-UI ()</a>
 
