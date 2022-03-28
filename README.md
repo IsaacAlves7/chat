@@ -17,7 +17,7 @@ Essa é a solução padrão de arquitetura para aplicações web com MERN stack 
 
 In additional, has been made one implementation with the Socket.io library, the GCP Authentication API and JWT for the chat application.
 
-## About the used tecnologies
+## Tudo sobre as tecnologias usadas
 ### MERN stack
 - <a href="https://www.mongodb.com/">MongoDB (v5.0.6)</a> 
 - <a href="https://expressjs.com/pt-br/">Express (v4.17.1)</a>
@@ -27,7 +27,7 @@ In additional, has been made one implementation with the Socket.io library, the 
 ### Package manager
 - <a href="https://www.npmjs.com/">NPM (v8.3.1)</a>
 
-### Dependences
+### Dependências
 - <a href="https://www.npmjs.com/package/moment">Moment (v2.29.1)</a>
 - <a href="https://www.npmjs.com/package/axios">Axios (v0.21.1)</a>
 - <a href="https://www.npmjs.com/package/cors">Cors (v2.8.5)</a>
@@ -40,7 +40,7 @@ In additional, has been made one implementation with the Socket.io library, the 
 - <a href="https://www.npmjs.com/package/socket.io-client">socket.io-client (v4.1.2)</a>
 - <a href="https://mui.com/pt/">Material-UI (v4.11.4)</a>
 
-## Directories (Folders and files of the Application)
+## Diretórios (Pastas e arquivos da Aplicação)
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/160254373-904dfb69-ff45-4aaa-939a-85821848633b.png" width="100%"></div><br \>
 
 First of all, enter in the project folder and i'll explain all about the directories and files of this project:
@@ -59,7 +59,7 @@ First of all, enter in the project folder and i'll explain all about the directo
 
 - `README.md` is the documentation of the project written in Markdown (optional).
 
-## Execution order to start the app on terminal
+## Ordem de execução para iniciar o app no terminal
 This project has an execution order on terminal, follow the steps below:
 
 1. Run the `socket` directory on `./socket/index.js` directory:
@@ -134,7 +134,7 @@ Learn more how to debugger one code with Node.js (back-end) or React.js (front-e
 - https://youtu.be/Lb20EoDja50
 - https://youtu.be/nolpm5iIyio
 
-## MongoDB configuration
+## Configuração do MongoDB (via cloud)
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" width="177em"></div><br \>
 
 Copy and drop on 
@@ -156,7 +156,7 @@ Copy and drop on
 mongodb+srv://<username>:<password>@cluster0.94nsy.mongodb.net/<database>?retryWrites=true&w=majority
 ```
 
-## Otimization
+## Otimização da aplicação
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/159167177-49b2c872-9b04-4ca1-aa65-488b74786981.jpeg" width="87%"></div><br \>
 
 Pelo peso dos arquivos com extensão `.js` e `.css` estarem sobrecarregando a capacidade de armazenamento do repositório do GitHub, foram substituídos por arquivos com extensão `.jsx` e apenas uma folha de estilo chamada `index.css`.
@@ -165,7 +165,7 @@ Pelo peso dos arquivos com extensão `.js` e `.css` estarem sobrecarregando a ca
 
 ---
 
-# View (Front-End/ Client project)
+# View (Aplicação Front-End/ Client)
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" width="177em"></div>
 
 <div align="center">
@@ -254,7 +254,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ---
 
-# Controller (Back-End/ Server project)
+# Controller (Aplicação Back-End/ Server)
 <div align="center"><img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" width="177em"></div>
 
 <div align="center">
@@ -270,7 +270,7 @@ The **controller** is where the traffic of the application is controlled by rout
 
 ---
 
-# Model (ODM Back-End)
+# Model (ODM - Object Data Model no Back-End)
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" width="177em"><img src="https://miro.medium.com/max/370/1*jO715XDC1YAEsWUwovWUQw.png" width="277em"></div>
 
 <div align="center">
@@ -286,7 +286,7 @@ The **controller** is where the traffic of the application is controlled by rout
 
 ---
 
-# Socket.io (The bidirectional real-time execution)
+# Socket.io (Execução bidirecional em tempo real)
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/socket-io.svg" width="177em"></div><br \>
 
 <div align="center">
@@ -307,7 +307,7 @@ The **Socket.io** is a realtime application framework (Node.JS server). This ena
 
 ---
 
-## Author
+# Autor do projeto
 This project was made by **HeadMind Partners** (ex-Beijaflore) company.
 
 | [<img src="https://media-exp1.licdn.com/dms/image/C4D0BAQEy1FNaUiE1dw/company-logo_200_200/0/1641465970668?e=1656547200&v=beta&t=ctTiEK8RvXTv5HRyfkVySu3JXgjuSr8_qwT8jvscWU4" width="110"><br><sub>HeadMind Partners</sub>](https://www.headmind.com/pt/) | [<img src="https://avatars.githubusercontent.com/u/61624336?v=4" width="110"><br><sub>@IsaacAlves7 - trainee</sub>](https://github.com/IsaacAlves7) 
