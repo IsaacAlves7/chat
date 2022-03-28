@@ -40,15 +40,6 @@ In additional, has been made one implementation with the Socket.io library, the 
 - <a href="https://www.npmjs.com/package/socket.io-client">socket.io-client (v4.1.2)</a>
 - <a href="https://mui.com/pt/">Material-UI (v4.11.4)</a>
 
-### Developer tools
-- <a href="">Git LFS - Large Files Storage ()</a>
-- <a href="">Git ()</a>
-- <a href="">Postman ()</a>
-- <a href="">.gitignore ()</a>
-- <a href="">launch.json ()</a>
-- <a href="">firebase.js ()</a>
-- <a href="">VS Code ()</a>
-
 ### Directories (Folders and files of the Application)
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/160254373-904dfb69-ff45-4aaa-939a-85821848633b.png" width="100%"></div><br \>
 
