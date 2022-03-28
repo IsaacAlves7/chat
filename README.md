@@ -39,7 +39,7 @@ Onde a **View** é a Aplicação Cliente (front-end) enviando requisições para
 ## Diretórios (Pastas e arquivos da Aplicação)
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/160254373-904dfb69-ff45-4aaa-939a-85821848633b.png" width="100%"></div><br \>
 
-First of all, enter in the project folder and i'll explain all about the directories and files of this project:
+Antes de tudo, entre na pasta do projeto e explico tudo sobre os diretórios e arquivos deste projeto:
 
 - `./vscode/` é a pasta que contém o arquivo `launch.json`, esse é um Node.js debugger no editor Visual Studio Code (opcional);
 
