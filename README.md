@@ -40,7 +40,7 @@ In additional, has been made one implementation with the Socket.io library, the 
 - <a href="https://www.npmjs.com/package/socket.io-client">socket.io-client (v4.1.2)</a>
 - <a href="https://mui.com/pt/">Material-UI (v4.11.4)</a>
 
-### Directories (Folders and files of the Application)
+## Directories (Folders and files of the Application)
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/160254373-904dfb69-ff45-4aaa-939a-85821848633b.png" width="100%"></div><br \>
 
 First of all, enter in the project folder and i'll explain all about the directories and files of this project:
@@ -59,7 +59,7 @@ First of all, enter in the project folder and i'll explain all about the directo
 
 - `README.md` is the documentation of the project written in Markdown (optional).
 
-### Execution order to start the app on terminal
+## Execution order to start the app on terminal
 This project has an execution order on terminal, follow the steps below:
 
 1. Run the `socket` directory on `./socket/index.js` directory:
@@ -89,6 +89,7 @@ npm run start
 Learn more how create the Google Cloud OAuth Client ID: 
 
 Copy and drop on the `data.js` file:
+
 ### Google Client ID (googleId)
 ```
 538364591142-4u1kde577futhoc4kq2rglojs9f163bt.apps.googleusercontent.com
@@ -180,7 +181,7 @@ Pelo peso dos arquivos com extensão `.js` e `.css` estarem sobrecarregando a ca
 
 This project resides on `.client`
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -268,6 +269,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 The **controller** is where the traffic of the application is controlled by routes and the API.
 
 ---
+
 # Model (ODM Back-End)
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" width="177em"><img src="https://miro.medium.com/max/370/1*jO715XDC1YAEsWUwovWUQw.png" width="277em"></div>
 
