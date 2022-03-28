@@ -140,12 +140,12 @@ Copy and drop on
 
 ### Network Access
 
-#### Local IP Address
+#### Local IP Address (from home or company)
 ```
 <IP>/32
 ```
 
-#### Joker IP Address
+#### Joker IP Address (from anywhere)
 ```
 0.0.0.0/0
 ```
@@ -161,6 +161,7 @@ mongodb+srv://<username>:<password>@cluster0.94nsy.mongodb.net/<database>?retryW
 Pelo peso dos arquivos com extensão `.js` e `.css` estarem sobrecarregando a capacidade de armazenamento do repositório do GitHub, foram substituídos por arquivos com extensão `.jsx` e apenas uma folha de estilo chamada `index.css`.
 
 ## `.env` file
+
 ---
 
 # View (Front-End/ Client project)
