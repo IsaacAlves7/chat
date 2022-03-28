@@ -82,7 +82,7 @@ npm run start
 ## GCP - Google Cloud Plataform API
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/google-cloud-2.svg" width="177em"></div><br \>
 
-Aprenda mais sobre como criar o Google Cloud OAuth Client ID: 
+Aprenda mais sobre como criar o Google Cloud OAuth Client ID: https://console.cloud.google.com/apis/credentials?project=autoglass-chat&supportedpurview=project
 
 Copie e cole no arquivo `data.js`:
 
