@@ -161,7 +161,16 @@ mongodb+srv://<username>:<password>@cluster0.94nsy.mongodb.net/<database>?retryW
 
 Pelo peso dos arquivos com extensão `.js` e `.css` estarem sobrecarregando a capacidade de armazenamento do repositório do GitHub, foram substituídos por arquivos com extensão `.jsx` e apenas uma folha de estilo chamada `index.css`.
 
-## `.env` file
+## `.env`
+O arquivo `.env` é uma variável de ambiente para guardar os segredos da sua aplicação para que elas sejam referenciadas e acessadas pela aplicação, no caso, os tipos de segredos em geral podem ser: endereço IP, portas, senhas, usuários, tokens e entre outros dados sigilosos. Com a criação desse arquivo é possível garantir uma segurança a mais para a sua aplicação.
+
+Abaixo, será mostrado o modelo de .env que a aplicação precisa para ficar de pé:
+
+```
+DB_USERNAME=<mongodb_user>
+DB_PASSWORD=<mongodb_password>
+PORT=<back-end-app_port>
+```
 
 ---
 
