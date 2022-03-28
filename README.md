@@ -127,6 +127,12 @@ The **Axios** library is a
 ## Debugger
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg" width="177em"></div><br \>
 
+Learn more how to debugger one code with Node.js:
+- https://www.alura.com.br/artigos/debugando-projetos-nodejs-no-vscode
+- https://youtu.be/LX-kstxcWbI
+- https://youtu.be/Lb20EoDja50
+- https://youtu.be/nolpm5iIyio
+
 ## MongoDB configuration
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" width="177em"></div><br \>
 
