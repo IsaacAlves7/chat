@@ -109,7 +109,7 @@ export const clientId = '<googleId>';
 O **JWT**, acrônimo para **J**SON **W**eb **T**oken, é muito utilizado quando fazemos autenticação via API, onde utiliza o JSON para a comunicação de dados com o Token. Apesar de ser considerado ideal para autenticação, o JWT é um recurso de autorização.
 
 ## RESTful API (REST API)
-<div align="center"><img src="https://user-images.githubusercontent.com/8939680/57233882-20344080-6fe5-11e9-9086-d20a955bed59.png" width="17.3%"><img src="https://www.rlogical.com/wp-content/uploads/2021/08/rest-api-model.png" width="47%"></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/8939680/57233882-20344080-6fe5-11e9-9086-d20a955bed59.png" width="17.3%"><img src="https://www.rlogical.com/wp-content/uploads/2021/08/rest-api-model.png" width="47%"></div><br \>
 
 <div align="center">
 <details><summary><b title="(click to open)">⚙️ REST API with Axios library</b></summary>
@@ -168,7 +168,7 @@ Pelo peso dos arquivos com extensão `.js` e `.css` estarem sobrecarregando a ca
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" width="177em"></div>
 
 <div align="center">
-<details><summary><b title="(click to open)">⚙️ REST API with Axios library</b></summary>
+<details><summary><b title="(click to open)">⚙️ More details about the View</b></summary>
 <div align="center">
 
 <div align="center"><img src="https://bezkoder.com/wp-content/uploads/2020/03/react-node-express-mongodb-mern-stack-example-architecture.png" width="87%"></div><br \>
