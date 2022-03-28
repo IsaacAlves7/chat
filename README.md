@@ -13,10 +13,6 @@ Onde a **View** é a Aplicação Cliente (front-end) enviando requisições para
 ### Design da arquitetura MVC para MERN stack
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/160254779-cd2b8ddb-541a-45f3-a55a-38f6f4bf13ed.png" width="87%"></div><br \>
 
-Essa é a solução padrão de arquitetura para aplicações web com MERN stack e REST API.
-
-In additional, has been made one implementation with the Socket.io library, the GCP Authentication API and JWT for the chat application.
-
 ## Tudo sobre as tecnologias usadas
 ### MERN stack
 - <a href="https://www.mongodb.com/">MongoDB (v5.0.6)</a> 
@@ -45,19 +41,19 @@ In additional, has been made one implementation with the Socket.io library, the 
 
 First of all, enter in the project folder and i'll explain all about the directories and files of this project:
 
-- `./vscode/` is the folder that contains the `launch.json` file, this is a Node.js debugger in the Visual Studio Code editor (optional);
+- `./vscode/` é a pasta que contém o arquivo `launch.json`, esse é um Node.js debugger no editor Visual Studio Code (opcional);
 
-- `./client/` is the folder of front-end web application (necessary);
+- `./client/` é a pasta da aplicação web front-end (necessário);
 
-- `./server/` is the folder of the back-end web application (necessary);
+- `./server/` é a pasta da aplicação web back-end (necessário);
 
-- `./socket/` is the folder of back-end web application library (necessary);
+- `./socket/` é a pasta da biblioteca da aplicação web back-end (necessário);
 
-- `.gitignore` is a skip/ ignore file for modules when you're pushing the repository to the GitHub (optional);
+- `.gitignore` é um arquivo de ignorar modulos quando quando você dá um push no repositório do GitHub (opcional);
 
-- `.gitattributes` is a file of **Git LFS - Large File Storage** for reduce the large storage of any file (optional);
+- `.gitattributes` é um arquivo do **Git LFS - Large File Storage** para reduzir arquivos de grande largura de armazenamento para o repositório do GitHub, tendo o limite de 1.5GB para o free (opcional);
 
-- `README.md` is the documentation of the project written in Markdown (optional).
+- `README.md` é a documentação do projeto escrito em Markdown (opcional).
 
 ## Ordem de execução para iniciar o app no terminal
 This project has an execution order on terminal, follow the steps below:
