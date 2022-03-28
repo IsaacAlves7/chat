@@ -168,7 +168,7 @@ Pelo peso dos arquivos com extensão `.js` e `.css` estarem sobrecarregando a ca
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" width="177em"></div>
 
 <div align="center">
-<details><summary><b title="(click to open)">⚙️ More details about the View</b></summary>
+<details><summary><b title="(click to open)">➕ More about the View</b></summary>
 <div align="center">
 
 <div align="center"><img src="https://bezkoder.com/wp-content/uploads/2020/03/react-node-express-mongodb-mern-stack-example-architecture.png" width="87%"></div><br \>
@@ -257,7 +257,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <div align="center"><img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" width="177em"></div>
 
 <div align="center">
-<details><summary><b title="(click to open)">⚙️ REST API with Axios library</b></summary>
+<details><summary><b title="(click to open)">➕ More about the Controller</b></summary>
 <div align="center">
 <img src="https://symbols.getvecta.com/stencil_79/88_expressjs-icon.54bb6035d3.svg" width="277em">
 </div>
@@ -272,7 +272,7 @@ The **controller** is where the traffic of the application is controlled by rout
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" width="177em"><img src="https://miro.medium.com/max/370/1*jO715XDC1YAEsWUwovWUQw.png" width="277em"></div>
 
 <div align="center">
-<details><summary><b title="(click to open)">⚙️ REST API with Axios library</b></summary>
+<details><summary><b title="(click to open)">➕ More about the Model</b></summary>
 <div align="center">
 
 <div align="center"><img src="https://bezkoder.com/wp-content/uploads/2020/03/react-node-express-mongodb-mern-stack-example-architecture.png" width="87%"></div><br \>
@@ -288,7 +288,7 @@ The **controller** is where the traffic of the application is controlled by rout
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/socket-io.svg" width="177em"></div><br \>
 
 <div align="center">
-<details><summary><b title="(click to open)">⚙️ REST API with Axios library</b></summary>
+<details><summary><b title="(click to open)">➕ More about the Socket.io</b></summary>
 <div align="center">
 
 <div align="center"><img src="https://bezkoder.com/wp-content/uploads/2020/03/react-node-express-mongodb-mern-stack-example-architecture.png" width="87%"></div><br \>
