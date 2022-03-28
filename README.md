@@ -6,9 +6,9 @@ Esse é um projeto de aplicação web de Chat privado para a empresa AUTOGLASS e
 ## Arquitetura do projeto
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/160253589-5d87ef9a-29de-4f19-90c4-7a992cb71087.png"></div><br \>
 
-The used architecture for this project was the **MVC architecture** (Model View Controller).
+A arquitetura utilizada para este projeto foi a arquitetura **MVC** (Model View Controller).
 
-Where the *View* is the Client Application (front-end) sending requests to *Controller* that is your Server Application (back-end), and this manipuling the data (ODM with database) on *Model* and controlling the route traffic, that rendering on View and this displays on Model. 
+Onde a **View** é a Aplicação Cliente (front-end) enviando requisições para o **Controller** que é sua Aplicação do Servidor (back-end), e esta manipulando os dados (ODM - Object Data Model com banco de dados) no **Model** e controlando o tráfego das rotas da aplicação, que renderiza na View e isso é exibido no Model.
 
 ### Design da arquitetura MVC para MERN stack
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/160254779-cd2b8ddb-541a-45f3-a55a-38f6f4bf13ed.png" width="87%"></div><br \>
