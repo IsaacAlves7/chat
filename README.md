@@ -127,7 +127,7 @@ The **Axios** library is a
 ## Debugger
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg" width="177em"></div><br \>
 
-Learn more how to debugger one code with Node.js:
+Learn more how to debugger one code with Node.js (back-end) or React.js (front-end):
 - https://www.alura.com.br/artigos/debugando-projetos-nodejs-no-vscode
 - https://youtu.be/LX-kstxcWbI
 - https://youtu.be/Lb20EoDja50
@@ -144,10 +144,12 @@ Copy and drop on
 ```
 <IP>/32
 ```
+
 #### Joker IP Address
 ```
 0.0.0.0/0
 ```
+
 ### `./server/database/db.js`
 ```javascript
 mongodb+srv://<username>:<password>@cluster0.94nsy.mongodb.net/<database>?retryWrites=true&w=majority
