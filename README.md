@@ -56,28 +56,28 @@ Antes de tudo, entre na pasta do projeto e explico tudo sobre os diretórios e a
 - `README.md` é a documentação do projeto escrito em Markdown (opcional).
 
 ## Ordem de execução para iniciar o app no terminal
-This project has an execution order on terminal, follow the steps below:
+Este projeto possui uma ordem de execução no terminal, siga os passos abaixo:
 
-1. Run the `socket` directory on `./socket/index.js` directory:
+1. Rode o diretório `socket` no `./socket/index.js`:
 ```
 cd socket
 nodemon index.js
 ```
-> It's the Socket.io library running the Node.js back-end application in an alone folder, listening the `3000` port (the same of client).
+> Esse é a biblioteca Socket.io rodando o Node.js de forma isolada do _Controller_, ouvindo a porta `3000` (a mesma do cliente).
 
-2. Run the `server` directory on `./server/index.js` directory:
+2. Rode o diretório `server` no `./server/index.js`:
 ```
 cd server
 nodemon index.js
 ```
-> It's the Model and Controller running the Node.js back-end application in an alone folder on `8000` port.
+> Este é o _Model_ e _Controller_ rodando a aplicação web back-end do Node.js na porta `8000`.
 
-3. Run the `client` directory on `./src/index.js` directory:
+3. Rode o diretório `client` no `./src/index.js`:
 ```
 cd client
 npm run start
 ```
-> It's the View running the React.js front-end application in an alone folder on `3000` port.
+> Esse é o _View_ rodando a aplicação front-end do React.js na porta `3000`.
 
 ## GCP - Google Cloud Plataform API
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/google-cloud-2.svg" width="177em"></div><br \>
