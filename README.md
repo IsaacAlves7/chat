@@ -82,9 +82,9 @@ npm run start
 ## GCP - Google Cloud Plataform API
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/google-cloud-2.svg" width="177em"></div><br \>
 
-Learn more how create the Google Cloud OAuth Client ID: 
+Aprenda mais sobre como criar o Google Cloud OAuth Client ID: 
 
-Copy and drop on the `data.js` file:
+Copie e cole no arquivo `data.js`:
 
 ### Google Client ID (googleId)
 ```
