@@ -8,7 +8,7 @@ It's a project of **private Chat web application** for the AUTOGLASS company and
 
 The used architecture for this project was the **MVC architecture** (Model View Controller).
 
-Where the *View* is the Client Application (front-end) sending requests to *Controller* that is your Server Application (back-end), and this manipuling the data on *Model* and controlling the route traffic, that rendering on View and this displays on Model.
+Where the *View* is the Client Application (front-end) sending requests to *Controller* that is your Server Application (back-end), and this manipuling the data (ODM with database) on *Model* and controlling the route traffic, that rendering on View and this displays on Model. 
 
 ### MVC architecture design for MERN stack
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/160254779-cd2b8ddb-541a-45f3-a55a-38f6f4bf13ed.png" width="87%"></div><br \>
