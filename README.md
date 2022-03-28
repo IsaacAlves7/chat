@@ -1,19 +1,19 @@
 <a href="https://github.com/IsaacAlves7/chat-projects"><img src="https://fabricadecursos.com.br/wp-content/uploads/2020/04/cases-autoglass.jpg" width="100%"></a>
 
-# AUTOGLASS CHAT
+# AUTOGLASS CHAT (2022)
 Esse é um projeto de aplicação web de Chat privado para a empresa AUTOGLASS e seus usuários. Esta aplicação foi feita com MERN stack (MongoDB, Express, React.js e Node.js) + Socket.io + API de autenticação do GCP - Google Cloud Plataform + JWT - JSON Web Token.
 
-## Project Architecture
+## Arquitetura do projeto
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/160253589-5d87ef9a-29de-4f19-90c4-7a992cb71087.png"></div><br \>
 
 The used architecture for this project was the **MVC architecture** (Model View Controller).
 
 Where the *View* is the Client Application (front-end) sending requests to *Controller* that is your Server Application (back-end), and this manipuling the data (ODM with database) on *Model* and controlling the route traffic, that rendering on View and this displays on Model. 
 
-### MVC architecture design for MERN stack
+### Design da arquitetura MVC para MERN stack
 <div align="center"><img src="https://user-images.githubusercontent.com/61624336/160254779-cd2b8ddb-541a-45f3-a55a-38f6f4bf13ed.png" width="87%"></div><br \>
 
-It's the standard solution of Web Applications architecture with MERN stack and REST API.
+Essa é a solução padrão de arquitetura para aplicações web com MERN stack e REST API.
 
 In additional, has been made one implementation with the Socket.io library, the GCP Authentication API and JWT for the chat application.
 
