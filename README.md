@@ -128,7 +128,7 @@ A biblioteca **Axios** é um cliente HTTP baseado em _promise_ para o navegador 
 ## Node.js and React.js Debugger
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg" width="177em"></div><br \>
 
-Learn more how to debugger one code with Node.js (back-end) or React.js (front-end):
+Saiba mais como depurar um código com Node.js (back-end) ou React.js (front-end):
 - https://www.alura.com.br/artigos/debugando-projetos-nodejs-no-vscode
 - https://youtu.be/LX-kstxcWbI
 - https://youtu.be/Lb20EoDja50
@@ -136,8 +136,6 @@ Learn more how to debugger one code with Node.js (back-end) or React.js (front-e
 
 ## Configuração do MongoDB (via cloud)
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" width="177em"></div><br \>
-
-Copy and drop on 
 
 ### Network Access
 
