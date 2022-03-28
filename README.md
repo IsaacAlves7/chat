@@ -122,7 +122,7 @@ O **JWT**, acrônimo para **J**SON **W**eb **T**oken, é muito utilizado quando 
 </details>
 </div>
 
-The **Axios** library is a 
+A biblioteca **Axios** é um cliente HTTP baseado em _promise_ para o navegador e node.js.  
 
 ## Debugger
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg" width="177em"></div><br \>
