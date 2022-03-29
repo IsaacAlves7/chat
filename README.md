@@ -105,7 +105,7 @@ export const clientId = '<googleId>';
 
 O **JWT**, acrônimo para **J**SON **W**eb **T**oken, é muito utilizado quando fazemos autenticação via API, onde utiliza o JSON para a comunicação de dados com o Token. Apesar de ser considerado ideal para autenticação, o JWT é um recurso de autorização.
 
-## RESTful API (REST API)
+## RESTful API (REST API) with Axios and Cors libraies
 <div align="center"><img src="https://user-images.githubusercontent.com/8939680/57233882-20344080-6fe5-11e9-9086-d20a955bed59.png" width="17.3%"><img src="https://www.rlogical.com/wp-content/uploads/2021/08/rest-api-model.png" width="47%"></div><br \>
 
 <div align="center">
