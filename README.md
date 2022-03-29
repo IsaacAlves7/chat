@@ -128,6 +128,7 @@ O **RESTful API** é feito com 3 bibliotecas JavaScript para manipula de cliente
 A biblioteca **Axios** é um cliente HTTP baseado em _promise_ para o navegador e node.js.  
 
 ### Cors
+<img src="https://www.alura.com.br/artigos/assets/como-resolver-erro-de-cross-origin-resource-sharing/como-resolver-erro-de-cross-origin-resource-sharing.jpg" width="100%">
 
 ### Body Parser
 
