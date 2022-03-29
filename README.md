@@ -100,7 +100,7 @@ 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
 export const clientId = '<googleId>';
 ```
 
-## JWT - JSON Web Token
+## JWT - JSON Web Token Authorization
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/jwt-3.svg" width="177em"></div><br \>
 
 O **JWT**, acrônimo para **J**SON **W**eb **T**oken, é muito utilizado quando fazemos autenticação via API, onde utiliza o JSON para a comunicação de dados com o Token. Apesar de ser considerado ideal para autenticação, o JWT é um recurso de autorização.
