@@ -79,7 +79,7 @@ npm run start
 ```
 > Esse é o _View_ rodando a aplicação front-end do React.js na porta `3000`.
 
-## GCP - Google Cloud Plataform API
+## GCP - Google Cloud Plataform Auth Credential API
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/google-cloud-2.svg" width="177em"></div><br \>
 
 Aprenda mais sobre como criar o Google Cloud OAuth Client ID: https://console.cloud.google.com/apis/credentials?project=autoglass-chat&supportedpurview=project
