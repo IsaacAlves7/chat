@@ -312,6 +312,9 @@ O **Socket.io** é um framework/ biblioteca para execução e comunicação bidi
 
 # <a href="#">EXTRA</a>: Outras tecnologias válidas para esse projeto
 
+## Pusher
+Consegue substituir o framework Socket.io tranquilamente pelo fato de ser Real-time.
+
 ---
 
 # DevOps
