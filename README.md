@@ -310,6 +310,22 @@ O **Socket.io** é um framework/ biblioteca para execução e comunicação bidi
 
 ---
 
+# <a href="#">EXTRA</a>: Outras tecnologias válidas para esse projeto
+
+---
+
+# DevOps
+
+## Git Flow
+
+### Releases
+
+### Dockerization
+
+### GitOps
+
+---
+
 # Autor do projeto
 Esse projeto foi feito pela empresa **HeadMind Partners Brasil**: 
 
