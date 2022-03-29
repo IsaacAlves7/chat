@@ -274,13 +274,13 @@ The **controller** is where the traffic of the application is controlled by rout
 ---
 
 # Model (ODM - Object Data Model no Back-End)
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" width="177em"><img src="https://miro.medium.com/max/370/1*jO715XDC1YAEsWUwovWUQw.png" width="277em"></div>
+<div align="center"><img src="https://miro.medium.com/max/724/1*vK4MHL_jpKKmUFGjE5H9jw.png" width="477em"></div>
 
 <div align="center">
 <details><summary><b title="(click to open)">➕ More about the Model</b></summary>
 <div align="center">
 
-<div align="center"><img src="https://bezkoder.com/wp-content/uploads/2020/03/react-node-express-mongodb-mern-stack-example-architecture.png" width="87%"></div><br \>
+<div align="center"><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongoose/mongoose.png" width="87%"></div><br \>
 
 </div>
 
