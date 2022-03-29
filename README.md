@@ -280,7 +280,7 @@ The **controller** is where the traffic of the application is controlled by rout
 <details><summary><b title="(click to open)">➕ More about the Model</b></summary>
 <div align="center">
 
-<div align="center"><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongoose/mongoose.png" width="87%"></div><br \>
+<div align="center"><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongoose/mongoose.png" width="77"></div><br \>
 
 </div>
 
