@@ -111,6 +111,7 @@ O **RESTful API** é feito com 3 bibliotecas JavaScript para manipula de cliente
 - Cors - **C**ross **O**rigin **R**esource **S**haring
 - Body Parser
 
+### Axios
 <div align="center"><img src="https://user-images.githubusercontent.com/8939680/57233882-20344080-6fe5-11e9-9086-d20a955bed59.png" width="17.3%"><img src="https://www.rlogical.com/wp-content/uploads/2021/08/rest-api-model.png" width="47%"></div><br \>
 
 <div align="center">
@@ -125,6 +126,10 @@ O **RESTful API** é feito com 3 bibliotecas JavaScript para manipula de cliente
 </div>
 
 A biblioteca **Axios** é um cliente HTTP baseado em _promise_ para o navegador e node.js.  
+
+### Cors
+
+### Body Parser
 
 ## Node.js and React.js Debugger
 <div align="center"><img src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg" width="177em"></div><br \>
