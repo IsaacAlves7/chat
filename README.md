@@ -106,6 +106,9 @@ export const clientId = '<googleId>';
 O **JWT**, acrônimo para **J**SON **W**eb **T**oken, é muito utilizado quando fazemos autenticação via API, onde utiliza o JSON para a comunicação de dados com o Token. Apesar de ser considerado ideal para autenticação, o JWT é um recurso de autorização.
 
 ## RESTful API (REST API) com as bibliotecas: Axios, Cors e Body Parser
+<div align="center"><img src="https://www.rlogical.com/wp-content/uploads/2021/08/rest-api-model.png" width="100%">
+</div><br \>
+
 O **RESTful API** é feito com 3 bibliotecas JavaScript para manipula de cliente e servidor via HTTP para o navegador.
 - Axios
 - Cors - **C**ross **O**rigin **R**esource **S**haring
@@ -117,7 +120,6 @@ O **RESTful API** é feito com 3 bibliotecas JavaScript para manipula de cliente
 <div align="center">
 <details><summary><b title="(click to open)">⚙️ REST API with Axios library</b></summary>
 <div align="center">
-<img src="https://www.rlogical.com/wp-content/uploads/2021/08/rest-api-model.png" width="100%">
   
 <div align="center"><img src="https://bezkoder.com/wp-content/uploads/2020/03/react-node-express-mongodb-mern-stack-example-architecture.png" width="87%"></div><br \>
 
