@@ -36,8 +36,7 @@ Onde a **View** é a Aplicação Cliente (front-end) enviando requisições para
 - <a href="https://www.npmjs.com/package/socket.io-client">socket.io-client (v4.1.2)</a>
 - <a href="https://mui.com/pt/">Material-UI (v4.11.4)</a>
 
-## Diretórios (Pastas e arquivos da Aplicação)
-<div align="center"><img src="https://user-images.githubusercontent.com/61624336/160254373-904dfb69-ff45-4aaa-939a-85821848633b.png" width="100%"></div><br \>
+### Diretórios (Pastas e arquivos da Aplicação)
 
 Antes de tudo, entre na pasta do projeto e explico tudo sobre os diretórios e arquivos deste projeto:
 
