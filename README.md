@@ -50,8 +50,6 @@ Antes de tudo, entre na pasta do projeto e explico tudo sobre os diretórios e a
 
 - `.gitignore` é um arquivo de ignorar modulos quando quando você dá um push no repositório do GitHub (opcional);
 
-- `.gitattributes` é um arquivo do **Git LFS - Large File Storage** para reduzir arquivos de grande largura de armazenamento para o repositório do GitHub, tendo o limite de 1.5GB para o free (opcional);
-
 - `README.md` é a documentação do projeto escrito em Markdown (opcional).
 
 ## Ordem de execução para iniciar o app no terminal
