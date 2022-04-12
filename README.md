@@ -331,18 +331,6 @@ Consegue substituir o framework Socket.io tranquilamente pelo fato de ser Real-t
 
 ---
 
-# DevOps
-
-## Git Flow
-
-### Releases
-
-### Dockerization
-
-### GitOps
-
----
-
 # Autor do projeto
 Esse projeto foi feito pela empresa **HeadMind Partners Brasil**: 
 
