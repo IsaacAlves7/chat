@@ -3,6 +3,8 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 
 ## APIs
 - Cloudnary
+- Pusher
+- Twilio
 
 ## Bibliotecas
 - Socket.io (SocketIO)
