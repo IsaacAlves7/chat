@@ -9,6 +9,8 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 - WebRTC
 
 # Discord
+<div align="center"><img src="https://www.svgrepo.com/show/331368/discord-v2.svg" width="177px"></div><br \>
+
 - **Discord Clone - Learn MERN Stack with WebRTC and SocketIO**: Com erro na API de registro (Só registra um usuário)
 
 # WhatsApp
