@@ -17,9 +17,10 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 - **Discord Clone - Learn MERN Stack with WebRTC and SocketIO**: Com erro na API de registro (Só registra um usuário)
 
 # WhatsApp
-<img src="https://user-images.githubusercontent.com/61624336/160606215-182450c6-cc70-4eb6-9bd1-4ac35a49c903.jpg" width="100%">
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="177px"></div><br \>
 
 # Messenger
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg" width="177px"></div><br \>
 
 # Simple Chat Room
 
