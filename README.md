@@ -32,7 +32,7 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 <div align="center"><img src="" width="177px"></div><br \>
 
 # Simple Chat
-<div align="center"><img src="https://cdn.icon-icons.com/icons2/2853/PNG/512/chat_message_conversation_bubble_icon_181523.png" width="177px"></div><br \>
+<div align="center"><img src="https://www.svgrepo.com/show/26263/chat.svg" width="177px"></div><br \>
 
 # Chat
 <div align="center"><img src="https://pic.onlinewebfonts.com/svg/img_308868.png" width="177px"></div><br \>
