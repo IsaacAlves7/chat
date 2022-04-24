@@ -1,5 +1,5 @@
-# Chat projects from scratch!
-Esse é um projeto de aplicação web de Chat privado para a empresa AUTOGLASS e seus usuários. Esta aplicação foi feita com MERN stack (MongoDB, Express, React.js e Node.js) + Socket.io + API de autenticação do GCP - Google Cloud Plataform + JWT - JSON Web Token.
+# 💬 Chat projects from scratch!
+Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Node.js) e algumas bibliotecas e APIs JavaScript para a construção de funcionalidades importantes no projeto.
 
 # Discord
 
