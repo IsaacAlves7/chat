@@ -5,6 +5,7 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 - Cloudnary
 - Pusher
 - Twilio
+- Google Cloud Plataform Auth Client API
 
 ## Bibliotecas
 - Socket.io (SocketIO)
