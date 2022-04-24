@@ -22,9 +22,21 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 # Messenger
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg" width="177px"></div><br \>
 
+# Microsoft Teams
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg" width="177px"></div><br \>
+
+# Google Chat
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Google_Chat_icon_%282020%29.svg" width="177px"></div><br \>
+
 # Simple Chat Room
+<div align="center"><img src="" width="177px"></div><br \>
 
 # Simple Chat
+<div align="center"><img src="https://cdn.icon-icons.com/icons2/2853/PNG/512/chat_message_conversation_bubble_icon_181523.png" width="177px"></div><br \>
+
+# Chat
+<div align="center"><img src="https://pic.onlinewebfonts.com/svg/img_308868.png" width="177px"></div><br \>
+
 
 ---
 
