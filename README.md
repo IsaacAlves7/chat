@@ -11,11 +11,12 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 - Socket.io (SocketIO)
 - WebRTC
 
-## Connections, HTTP-clients e middlewares
+## Connections, Auth, HTTP-clients e middlewares
 - Axios
 - CORS
 - Body-parser
 - Proxy
+- JWT
 
 # Discord
 <div align="center"><img src="https://www.svgrepo.com/show/331368/discord-v2.svg" width="177px"></div><br \>
