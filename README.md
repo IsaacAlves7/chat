@@ -7,12 +7,13 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 - Twilio
 - Google Cloud Plataform Auth Client API
 
-## Front-end Frameworks/Libraries
+## Front-end stylesheet
 - Bootstrap
 - Material-UI
 - Chakra-UI
 - Node-Sass
 - Styled-components
+- CSS
 
 ## Bibliotecas
 - Socket.io (SocketIO)
