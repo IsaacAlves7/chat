@@ -12,6 +12,7 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 - Material-UI
 - Chakra-UI
 - Node-Sass
+- Styled-components
 
 ## Bibliotecas
 - Socket.io (SocketIO)
