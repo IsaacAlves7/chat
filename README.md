@@ -34,6 +34,12 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 # WhatsApp
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="177px"></div><br \>
 
+- React
+- Socket.io ou Pusher
+- Node.js
+- MongoDB
+- 
+
 # Messenger
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg" width="177px"></div><br \>
 
