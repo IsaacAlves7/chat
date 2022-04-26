@@ -37,11 +37,22 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 - React
 - Socket.io ou Pusher
 - Node.js
+- Express
 - MongoDB
-- 
+- Material-UI
+- JWT ou React Google Login
 
 # Messenger
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg" width="177px"></div><br \>
+
+- React
+- Redux
+- Socket.io
+- MongoDB
+- Node.js
+- Express
+- Node-Sass
+- JWT
 
 # Microsoft Teams
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg" width="177px"></div><br \>
