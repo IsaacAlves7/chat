@@ -113,7 +113,5 @@ https://api.cloudinary.com/v1_1/isaacalves7/image/upload
 ---
 
 # Autor do projeto
-Esse projeto foi feito pela empresa **HeadMind Partners Brasil**: 
-
 | [<img src="https://media-exp1.licdn.com/dms/image/C4D0BAQEy1FNaUiE1dw/company-logo_200_200/0/1641465970668?e=1656547200&v=beta&t=ctTiEK8RvXTv5HRyfkVySu3JXgjuSr8_qwT8jvscWU4" width="110"><br><sub>HeadMind Partners</sub>](https://www.headmind.com/pt/) | [<img src="https://avatars.githubusercontent.com/u/61624336?v=4" width="110"><br><sub>@IsaacAlves7</sub>](https://github.com/IsaacAlves7) 
 |:-:|:-:|
