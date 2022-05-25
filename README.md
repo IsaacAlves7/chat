@@ -63,7 +63,7 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 # Simple Chat Room
 <div align="center"><img src="https://www.svgrepo.com/show/26263/chat.svg" width="177px"></div><br \>
 
-# Simple Chat
+# iMessage
 <div align="center"><img src="https://corezoid.com/static/abc-4a53efc658dc73f5e2e105afa5e515d8.svg" width="177px"></div><br \>
 
 # Chat
