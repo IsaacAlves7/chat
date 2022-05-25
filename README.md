@@ -71,47 +71,6 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 
 ---
 
-## Cloudnary (Upload das fotos)
-<div align="center"><img src="https://res.cloudinary.com/demo/image/upload/cloudinary_icon.png" height="177"></div><br \>
-
-Vamos fazer os uploads das fotos de perfil ou outros documentos, mas para isso será preciso algum ambiente com capacidade de armazenamento eficaz para tal tarefa. Isso é a escolha, alguns utilizam algum serviço de armazenamento na computação em nuvem como o **Amazon S3 - Simple Storage Service**, porém iremos utilizar o **Cloudnary**.
-
-- Acesse o endereço para a área do dashboard: https://cloudinary.com/console/c-a9df15816f0e18d2cf546b5d8ef6a3
-- Acesse o endereço para a área de upload: https://cloudinary.com/console/c-a9df15816f0e18d2cf546b5d8ef6a3/settings/upload
-
-Acesse a área de upload e clique em <a href="https://cloudinary.com/console/c-a9df15816f0e18d2cf546b5d8ef6a3/upload_presets/new">Add upload present</a>.
-
-Em `Upload preset name` nomeie o projeto como `AUTOGLASS-CHAT` e depois clique em `Save`. Veja que já foi criado seu ambiente de upload chamado `AUTOGLASS-CHAT`. 
-
-Na seção `Signing Mode:` configure para `Unsigned`, isso é muito importante para a aplicação funcionar! 
-
-### Cloud name
-```
-isaacalves7
-```
-
-### API Base URL
-```
-https://api.cloudnary.com/v1_1/isaacalves7
-```
-
-### API Environment variable
-```
-CLOUDINARY_URL=cloudinary://658366239586916:YDSdH0j38xHQhdDDhV3BAjgCRNE@isaacalves7
-```
-
-### Base and Seccure delivery URL
-```
-http://res.cloudinary.com/isaacalves7
-```
-
-### API do UPLOAD
-```
-https://api.cloudinary.com/v1_1/isaacalves7/image/upload
-```
-
----
-
 # Autor do projeto
 | [<img src="https://media-exp1.licdn.com/dms/image/C4D0BAQEy1FNaUiE1dw/company-logo_200_200/0/1641465970668?e=1656547200&v=beta&t=ctTiEK8RvXTv5HRyfkVySu3JXgjuSr8_qwT8jvscWU4" width="110"><br><sub>HeadMind Partners</sub>](https://www.headmind.com/pt/) | [<img src="https://avatars.githubusercontent.com/u/61624336?v=4" width="110"><br><sub>@IsaacAlves7</sub>](https://github.com/IsaacAlves7) 
 |:-:|:-:|
