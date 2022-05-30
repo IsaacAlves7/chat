@@ -69,19 +69,19 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 - JWT
 
 # Microsoft Teams
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg" width="177px"></div><br \>
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg" width="177px" align="right">
 
 # Google Chat
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Google_Chat_icon_%282020%29.svg" width="177px"></div><br \>
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Google_Chat_icon_%282020%29.svg" width="177px" align="right">
 
 # Simple Chat Room
-<div align="center"><img src="https://www.svgrepo.com/show/26263/chat.svg" width="177px"></div><br \>
+<div align="center"><img src="https://www.svgrepo.com/show/26263/chat.svg" width="177px" align="right">
 
 # iMessage
-<div align="center"><img src="https://corezoid.com/static/abc-4a53efc658dc73f5e2e105afa5e515d8.svg" width="177px"></div><br \>
+<div align="center"><img src="https://corezoid.com/static/abc-4a53efc658dc73f5e2e105afa5e515d8.svg" width="177px" align="right">
 
 # Chat
-<div align="center"><img src="https://pic.onlinewebfonts.com/svg/img_308868.png" width="177px"></div><br \>
+<div align="center"><img src="https://pic.onlinewebfonts.com/svg/img_308868.png" width="177px" align="right">
 
 ---
 
