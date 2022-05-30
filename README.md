@@ -23,8 +23,12 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 - Axios
 - CORS
 - Body-parser
+- cookie-parser
+- express.static
 - Proxy
 - JWT
+- errorhandler
+- method-override
 
 # Discord
 <div align="center"><img src="https://www.svgrepo.com/show/331368/discord-v2.svg" width="177px"></div><br \>
