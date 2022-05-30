@@ -1,3 +1,5 @@
+<img src="https://focanocliente.com.br/wp-content/uploads/2020/03/chat-bot.png">
+
 # 💬 Chat projects from scratch!
 Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Node.js) e algumas bibliotecas e APIs JavaScript para a construção de funcionalidades importantes no projeto.
 
@@ -33,12 +35,12 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 - method-override
 
 # Discord
-<div align="center"><img src="https://www.svgrepo.com/show/331368/discord-v2.svg" width="177px"></div><br \>
+<img src="https://www.svgrepo.com/show/331368/discord-v2.svg" width="177px" align="right">
 
 - **Discord Clone - Learn MERN Stack with WebRTC and SocketIO**: Com erro na API de registro (Só registra um usuário)
 
 # WhatsApp
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="177px"></div><br \>
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="177px" align="right">
 
 - React
 - Socket.io ou Pusher
@@ -49,7 +51,7 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 - JWT ou React Google Login
 
 # Messenger
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg" width="177px"></div><br \>
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg" width="177px" align="right">
 
 - React
 - Redux
