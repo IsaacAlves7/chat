@@ -1,9 +1,11 @@
 # 💬 Chat projects from scratch!
 Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Node.js) e algumas bibliotecas e APIs JavaScript para a construção de funcionalidades importantes no projeto.
 
-## APIs
+## APIs and libraries
+- REST API
 - Cloudinary
 - Pusher
+- SocketIO
 - Twilio
 - Google Cloud Plataform Auth Client API
 
