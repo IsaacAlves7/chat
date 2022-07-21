@@ -70,5 +70,5 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 - WebRTC
 
 # MSN
-![msn](https://user-images.githubusercontent.com/61624336/180279314-fb2d0227-af4a-4cf4-8261-cd346a97df11.svg)
+<img src="https://user-images.githubusercontent.com/61624336/180279314-fb2d0227-af4a-4cf4-8261-cd346a97df11.svg" width="177px" align="right">
 
