@@ -1,6 +1,6 @@
 <a href="https://github.com/maksen-git/Fabrica-AutoGlass-Chat-Prototipo"><div align="center"><img src=""></div></a>
 
-# 💬 AUTOGLASS CHAT (2022) <img src="https://img.shields.io/github/license/IsaacAlves7/AUTOGLASS-CHAT.svg"> <img src="https://img.shields.io/github/v/release/maksen-git/Fabrica-AutoGlass-Chat-Prototipo">
+# 💬 Messenger Clone (2022) <img src="https://img.shields.io/github/license/IsaacAlves7/AUTOGLASS-CHAT.svg"> <img src="https://img.shields.io/github/v/release/maksen-git/Fabrica-AutoGlass-Chat-Prototipo">
 
 <a href="https://www.autoglass.com.br/"><img src="https://user-images.githubusercontent.com/61624336/163305759-469b95aa-70ea-4ec9-b39d-b3c57d1d1412.png" alt="AUTOGLASS CHAT.png" align="right" width="217" title="Visite o site da AUTOGLASS e acesse o app"></a>
 
