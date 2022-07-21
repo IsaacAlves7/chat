@@ -1,4 +1,4 @@
-<img src="https://focanocliente.com.br/wp-content/uploads/2020/03/chat-bot.png">
+<img src="https://www.userlike.com/api/proxy/resize/benefits-of-live-chat/chat-benefits.png?height=720">
 
 # 💬 Chat projects from scratch!
 Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Node.js) e algumas bibliotecas e APIs JavaScript para a construção de funcionalidades importantes no projeto.
