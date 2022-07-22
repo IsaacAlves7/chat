@@ -2,13 +2,13 @@
 
 # 💬 Messenger Clone (2022) <img src="https://img.shields.io/github/license/IsaacAlves7/AUTOGLASS-CHAT.svg"> <img src="https://img.shields.io/github/v/release/maksen-git/Fabrica-AutoGlass-Chat-Prototipo">
 
-<a href="https://www.autoglass.com.br/"><img src="https://user-images.githubusercontent.com/61624336/163305759-469b95aa-70ea-4ec9-b39d-b3c57d1d1412.png" alt="AUTOGLASS CHAT.png" align="right" width="217" title="Visite o site da AUTOGLASS e acesse o app"></a>
+<a href="https://www.autoglass.com.br/"><img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg" alt="AUTOGLASS CHAT.png" align="right" height="177" title="Visite o site da AUTOGLASS e acesse o app"></a>
 
-Esse é um projeto de aplicação web de Chat privado, baseado no modelo de Chat para E-Commerce, para a empresa AUTOGLASS. Essa aplicação web foi desenvolvida com um conjunto padrão de tecnologias denominado <b><a href="https://upflow.me/entendendo-o-mern-stack-o-que-e/">MERN stack</a></b> (MongoDB, Express, React.js e Node.js) e em adicional a biblioteca <a href="https://socket.io/">Socket.IO</a> para a execução bidirecional em tempo-real da aplicação. <!-- e a biblioteca <a href="https://webrtc.org/">WebRTC</a> para a comunicação em chamadas de vídeo e audio.  -->
+Essa aplicação web foi desenvolvida com um conjunto padrão de tecnologias denominado <b><a href="https://upflow.me/entendendo-o-mern-stack-o-que-e/">MERN stack</a></b> (MongoDB, Express, React.js e Node.js) e em adicional a biblioteca <a href="https://socket.io/">Socket.IO</a> para a execução bidirecional em tempo-real da aplicação. <!-- e a biblioteca <a href="https://webrtc.org/">WebRTC</a> para a comunicação em chamadas de vídeo e audio.  -->
 
 <!-- Endereço da aplicação no ambiente de produção: https://prod-autoglass-chat-heroku.app/ -->
 
-## As funcionalidades do AUTOGLASS CHAT
+## As funcionalidades do Messenger
 Esse projeto inclue as seguintes funcionalidades:
 
 - [x] CRUD (C.R.U.D - Create/ Read/ Update/ Delete);
