@@ -39,14 +39,21 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 
 > ⚠️ **Warning status**: **Discord Clone - Learn MERN Stack with WebRTC and SocketIO** (Com erro na API de registro (Só registra um usuário))
 
+### Web
 - WebRTC
 - SocketIO
 - Node.js
 - Express
 - MongoDB
 
+### Mobile
+
+### Desktop
+
 # WhatsApp
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="177px" align="right">
+
+### Web
 
 - React
 - Socket.io ou Pusher
@@ -55,6 +62,10 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 - MongoDB
 - Material-UI
 - JWT ou React Google Login
+
+### Mobile
+
+### Desktop
 
 # Messenger
 <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg" width="177px" align="right">
