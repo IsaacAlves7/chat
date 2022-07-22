@@ -96,6 +96,8 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 # E-Commerce Chat
 <img src="https://i.pinimg.com/originals/4e/51/1a/4e511adb8ca405f8893af07c9e2b885f.png" width="177px" align="right">
 
+> A principal característica de um chat de ecommerce é a sua privacidade de lista de contatos (filtro automático de contatos) e a sua relação entre cada cliente com um vendedor específico.
+
 - React
 - Redux
 - Socket.io
