@@ -93,3 +93,15 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 - Express
 - Node-Sass
 - JWT
+
+# LinkedIn Chat
+<img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" width="177px" align="right">
+
+- React
+- Redux
+- Socket.io
+- MongoDB
+- Node.js
+- Express
+- Node-Sass
+- JWT
