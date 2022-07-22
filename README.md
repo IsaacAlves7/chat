@@ -72,3 +72,24 @@ Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Nod
 # MSN
 <img src="https://user-images.githubusercontent.com/61624336/180279314-fb2d0227-af4a-4cf4-8261-cd346a97df11.svg" width="177px" align="right">
 
+- React
+- Redux
+- Socket.io
+- MongoDB
+- Node.js
+- Express
+- Node-Sass
+- JWT
+- WebRTC
+
+# E-Commerce Chat
+<img src="https://i.pinimg.com/originals/4e/51/1a/4e511adb8ca405f8893af07c9e2b885f.png" width="177px" align="right">
+
+- React
+- Redux
+- Socket.io
+- MongoDB
+- Node.js
+- Express
+- Node-Sass
+- JWT
