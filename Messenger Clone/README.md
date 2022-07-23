@@ -1,4 +1,4 @@
-<a href="https://github.com/maksen-git/Fabrica-AutoGlass-Chat-Prototipo"><div align="center"><img src=""></div></a>
+<a href=""><div align="center"><img src=""></div></a>
 
 # 💬 Messenger Clone (2022) <img src="https://img.shields.io/github/license/IsaacAlves7/AUTOGLASS-CHAT.svg"> <img src="https://img.shields.io/github/v/release/maksen-git/Fabrica-AutoGlass-Chat-Prototipo">
 
