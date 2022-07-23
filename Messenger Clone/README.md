@@ -1,5 +1,3 @@
-<a href=""><div align="center"><img src=""></div></a>
-
 # 💬 Messenger Clone (2022) <img src="https://img.shields.io/github/license/IsaacAlves7/AUTOGLASS-CHAT.svg"> <img src="https://img.shields.io/github/v/release/maksen-git/Fabrica-AutoGlass-Chat-Prototipo">
 
 <a href="https://www.autoglass.com.br/"><img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg" alt="AUTOGLASS CHAT.png" align="right" height="177" title="Visite o site da AUTOGLASS e acesse o app"></a>
@@ -205,10 +203,6 @@ npm run dev
 > Esse é o _View_ rodando a aplicação front-end do React.js na porta `3000`.
 
 É de extrema importância que a API e a conexão com o banco de dados esteja funcionando ao inicializar a aplicação, caso contrário, o usuário irá se deparar com a seguinte tela de erro:
-
-![Google Chrome](https://img.shields.io/badge/Google_Chrome-4285F4?style=badge&logo=Google-Chrome&logoColor=white)
-
-![(View) not-found-components](https://user-images.githubusercontent.com/61624336/167448890-a154c9c5-cdac-4854-9b80-626ca75eb5d3.png)
 
 > Essa tela indica que seu View foi inicializado, mas tem algo de errado com o Reducer, ou com a API ou com o banco de dados.
 
