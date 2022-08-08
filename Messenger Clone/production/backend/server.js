@@ -29,7 +29,12 @@ const server = http.createServer(app);
 // _________________________________🔌 Socket.io 🔌_____________________________________
 // ⚠️ WARNING: Real-time image upload failed!
 
-const io = socket(server);
+const io = socket(server, {
+    pingTimeout: 60000,
+    cors: {
+        origin: "http://localhost:3000",
+    },
+});
 
 let users = [];
 const addUser = (userId,socketId,userInfo) => {

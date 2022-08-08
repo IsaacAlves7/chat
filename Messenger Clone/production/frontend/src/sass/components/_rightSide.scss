@@ -47,7 +47,9 @@
                                 align-items: center;
                                 h3{
                                     padding-left: 10px;
+                                    margin-top: -10px;
                                     color: var(--text-color);
+                                    font-size: medium;
                                 }
                             }
                         }
@@ -61,7 +63,7 @@
                                 border-radius: 24px;
                                 color: var(--icon-color);
                                 cursor: pointer;
-                                background-color: var(--icon-bg-color);
+                                // background-color: var(--icon-bg-color);
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
@@ -71,6 +73,9 @@
                                     cursor: pointer;
                                     color: var(--icon-color);;
                                 }
+                            }
+                            .icon:hover{
+                                background-color: var(--icon-bg-color);
                             }
                         }
                     }

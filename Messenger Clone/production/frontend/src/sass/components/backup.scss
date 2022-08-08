@@ -1,0 +1,153 @@
+// _message.scss
+
+.message-show{
+    width: 100%;
+    height: 100%;
+    padding: 14px;
+   //  background-color: lime;
+    overflow-y: auto;
+    &::-webkit-scrollbar{
+        overflow:hidden; // none
+    }
+    .my-message{
+       display: flex;
+       align-items: flex-end;
+       justify-content: flex-end;
+       flex-direction: column;
+       margin: 0;
+       padding: 0;
+       width: auto;
+       height: auto;
+       // background-color: red;
+        .my-text{
+            img.img,span{
+                width: 14px;
+                height: 14px;
+                border-radius: 100%;
+                object-fit: center;
+                position: relative;
+                z-index: 1000;
+                color: var(--text-color);
+               //  background-color: brown;
+                float: right;
+                margin-top: -17px;
+                margin-right: -12px;
+                z-index: 1000;
+            }
+            .my{
+               //  background-color: var(--my-message-bg);
+                color: var(--text-white);
+            }
+            .message-text{
+                text-align: left;
+                padding: 10px;
+                border-radius: 21px;
+                width: fit-content;
+                margin-left: auto;
+                margin-bottom: 3px;
+                word-break: break-all;
+                white-space: pre-line;
+                white-space: pre-wrap;
+                line-height: 20px;
+                word-wrap: break-word;
+            }
+        }
+        .time{
+            text-align: end;
+            padding: 5px 0px;
+            color: #727272d9;
+            font-size: 12px;
+        }
+    }
+    .friend_connect{
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: flex-start;
+       // background-color: aqua;
+       margin-top: 10px;
+       color: var(--text-color);
+       img{
+           width: 50%;
+           height: 50%;
+           // border-radius: 50%;
+       }
+       h3{
+           margin-top: 10px;
+       }
+    }
+    .fd-message{
+       display: flex;
+       align-items: flex-start;
+       justify-content: flex-start;
+       margin: 0;
+       padding: 0;
+       width: auto;
+       height: auto;
+       flex-direction: column;        
+       // background-color: aqua;
+        .fd-text{
+            .fd{
+               //  background-color: var(--fd-message-bg);
+                color: var(--text-color);
+            }
+            .message-text{
+                text-align: left;
+                border-radius: 10px;
+                width: fit-content;
+               //  margin-right: auto;
+                background-color: var(--message-type);
+                color: var(--text-color);
+                text-align: left;
+                padding: 10px;
+               //  padding-bottom: 7px;
+               //  padding-left: 11px;
+               //  padding-right: 11px;
+                border-radius: 21px;
+                width: fit-content;
+               //  margin-left: auto;
+               //  margin-bottom: 3px;
+                word-break: break-all;
+                white-space: pre-line;
+                white-space: pre-wrap;
+                line-height: 20px;
+                unicode-bidi: isolate;
+                word-wrap: break-word;
+                img{
+                    width: 50%;
+                    height: 50%;
+                    margin-right: 0px;
+                    border-radius: 5px;
+                    overflow: hidden;
+                    object-fit: cover;
+                   //  background-color: transparent;
+                    background-color: yellow;
+                    cursor: pointer;
+                }
+            }
+        }
+    }   
+}
+.image-message{
+   background-color: none;
+}
+
+.image-message,.image-message-time{
+    display: flex;
+    .message-text{
+        padding: 10px;
+        color: #fff;
+        background-color: #0084ff;
+        font-size: .9375rem;
+        font-weight: 400;
+    }
+    .time{
+        padding: 5px 0px;
+        color: #727272d9;
+        font-size: 12px;
+    }
+}
+
+.typing-message{
+    padding: 0px 10px;
+}

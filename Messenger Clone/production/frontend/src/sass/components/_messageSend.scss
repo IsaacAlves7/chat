@@ -1,7 +1,7 @@
 .message-send-section{
      position: relative;
      display: flex;
-     justify-content: space-around;
+     justify-content: center;
      align-items: center;
      padding: 5px;
      .file{
@@ -65,9 +65,9 @@
      }
      .message-type{
          display: flex;
-         width: 70%;
-         height: 40px;
-         background-color: var(--message-type);
+         width: 87%;
+         height: 37px;
+         background-color: #f4f3f3;
          border-radius: 50px;
          border: none;
          align-items: center;
@@ -79,11 +79,11 @@
              border: none;
              color: var(--text-color);
              &::placeholder{
-                 color: var(--text-color);
+                 color: gray;
              }
          }
          label{
-             font-size: 20px;
+             font-size: 27px;
              margin-right: 5px;
              cursor: pointer;
          }

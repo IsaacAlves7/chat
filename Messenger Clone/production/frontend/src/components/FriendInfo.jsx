@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaCaretSquareDown} from "react-icons/fa";
+import {IoChevronDownOutline} from "react-icons/io5";
 
 // -----------------------------------------------------------------------------------------------------------------------------------
 
@@ -12,37 +12,33 @@ const FriendInfo = ({currentfriend,activeUser,message}) => {
                 <img src={currentfriend.image} alt={currentfriend.name}/> 
             </div>
 
-            {
-                activeUser && activeUser.length > 0 && activeUser.some(u => u.
-                userId === currentfriend._id) ? <div
-                className='active-user'>Online</div> : <div className='offline-user'>Offline</div>
-            }
-
             <div className='name'>
                 <h4>{currentfriend.userName}</h4>
             </div>
+
+            {
+                activeUser && activeUser.length > 0 && activeUser.some(u => u.
+                userId === currentfriend._id) ? <div
+                className='active-user'>Online agora</div> : <div className='offline-user'>Offline</div>
+            }
+
         </div>       
 
         <div className='others'>
 
             <div className='custom-chat'>
-                <h3>Mais sobre o usuário</h3>
-                <FaCaretSquareDown/>
+                <h3>Personalizar bate-papo</h3>
+                <IoChevronDownOutline/>
             </div>
 
-            <div className='custom-chat'>
-                <h3>Customize seu chat</h3>
-                <FaCaretSquareDown/>
+            <div className='media'>
+                <h3>Mídia, arquivos e links</h3>
+                <label htmlFor='gallery'><IoChevronDownOutline/></label>
             </div>
 
             <div className='privacy'>
                 <h3>Privacidade e Suporte</h3>
-                <FaCaretSquareDown/>
-            </div>
-
-            <div className='media'>
-                <h3>Mídia compartilhada</h3>
-                <label htmlFor='gallery'><FaCaretSquareDown/></label>
+                <IoChevronDownOutline/>
             </div>
 
         </div>

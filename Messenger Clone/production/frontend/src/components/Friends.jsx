@@ -31,7 +31,7 @@ const Friends = (props) => {
                     {
                         msgInfo && msgInfo.message.text ? <span className={ msgInfo?.senderId !== myId && msgInfo?.status !== undefined && msgInfo.status !== 'seen'?'unseen_message' : '' }>{msgInfo.message.text.slice(0, 10)}</span> : msgInfo && msgInfo.message.image ? <span>Enviou uma imagem</span> : <span>Entrou no chat</span>
                     }
-                    <sup className='time'>&nbsp;&nbsp;{msgInfo ? moment(msgInfo.createdAt).fromNow() : moment(fndInfo.createdAt).fromNow()}</sup>
+                    <span className='time'> • {msgInfo ? moment(msgInfo.createdAt).fromNow() : moment(fndInfo.createdAt).fromNow()}</span>
                 </div>
             </div>
 
