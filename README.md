@@ -1,5 +1,12 @@
 <a href="https://github.com/IsaacAlves7/chat-projects"><img src="https://www.userlike.com/api/proxy/resize/benefits-of-live-chat/chat-benefits.png?height=720"></a>
 
+<!--
+https://youtu.be/59pumSluRj4
+https://youtu.be/Q-y8ASwOYgQ
+https://youtu.be/aLCu3vWot2E
+https://youtu.be/oYMtCGfYMB8
+-->
+
 # 💬 Chat projects from scratch!
 Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Node.js) e algumas bibliotecas e APIs JavaScript para a construção de funcionalidades importantes no projeto.
 
