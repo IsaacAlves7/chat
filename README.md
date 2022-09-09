@@ -8,6 +8,9 @@ https://youtu.be/oYMtCGfYMB8
 https://youtu.be/cnxrhXORmnE
 https://youtu.be/CkRGJC0ytdU
 https://youtu.be/vl5CJIhy5oU
+https://youtu.be/SYP54qp4aMM
+https://youtu.be/NHCOPoqqFPc
+https://youtu.be/8e_4KIj4jBs
 -->
 
 # 💬 Chat projects from scratch!
