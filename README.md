@@ -11,6 +11,9 @@ https://youtu.be/vl5CJIhy5oU
 https://youtu.be/SYP54qp4aMM
 https://youtu.be/NHCOPoqqFPc
 https://youtu.be/8e_4KIj4jBs
+
+
+https://youtu.be/43wwRPwQhvM
 -->
 
 # 💬 Chat projects from scratch!
