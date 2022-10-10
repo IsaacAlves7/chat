@@ -17,7 +17,7 @@ https://youtu.be/43wwRPwQhvM
 -->
 
 # 💬 Chat projects from scratch!
-Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Node.js) e algumas bibliotecas e APIs JavaScript para a construção de funcionalidades importantes no projeto.
+> Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Node.js) e algumas bibliotecas e APIs JavaScript para a construção de funcionalidades importantes no projeto.
 
 ## APIs
 - REST API
