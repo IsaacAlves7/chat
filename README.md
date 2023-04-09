@@ -1,5 +1,3 @@
-<a href="https://github.com/IsaacAlves7/chat-projects"><img src="https://www.userlike.com/api/proxy/resize/benefits-of-live-chat/chat-benefits.png?height=720"></a>
-
 <!--
 https://youtu.be/59pumSluRj4
 https://youtu.be/Q-y8ASwOYgQ
@@ -17,6 +15,8 @@ https://youtu.be/43wwRPwQhvM
 -->
 
 # 💬 Facebook Messenger Clone
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg" width="177px" align="right">
+
 > Essas aplicações foram feitas com MERN stack (MongoDB, Express, React.js e Node.js) e algumas bibliotecas e APIs JavaScript para a construção de funcionalidades importantes no projeto.
 
 ## APIs
@@ -48,9 +48,6 @@ https://youtu.be/43wwRPwQhvM
 - JWT
 - errorhandler
 - method-override
-
-# Messenger
-<img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg" width="177px" align="right">
 
 - React
 - Redux
