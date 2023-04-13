@@ -635,7 +635,7 @@ Abaixo, será mostrado o arquivo `config.env` que a aplicação precisa para fic
 ```
 PORT=5000
 DATABASE_URL=mongodb://localhost:27017/autoglassChatDB
-ATLAS_DATABASE_URL=mongodb+srv://isaac:i770@cluster0.94nsy.mongodb.net/prodAutoglassChatDB?retryWrites=true&w=majority
+ATLAS_DATABASE_URL=mongodb+srv://isaac:i770@cluster0.94nsy.mongodb.net/prodMessengerDB?retryWrites=true&w=majority
 SECRET=ASHDFKLAHSD2323
 TOKEN_EXP=7d
 COOKIE_EXP=7
@@ -699,7 +699,7 @@ Vou mostrar como você pode utilizar o banco de dados do MongoDB diretamente pel
 
 **Endereço do banco de dados via MongoDB Compass**:
 ```sh
-mongodb://localhost:27017/devAutoglassChatDB
+mongodb://localhost:27017/devMessengerDB
 ```
 
 ## MongoDB Atlas cloud (Banco de produção)
@@ -723,7 +723,7 @@ Você precisa configurar sua rede com o endereço IP local para acessar ao banco
 ### Endereço do banco de dados via MongoDB Atlas Cloud
 [![database.js](https://img.shields.io/badge/-./backend/config/database.js-fff?style=social&logo=JavaScript&logoColor=yellow)](#)
 ```javascript
-mongodb+srv://isaac:i770@cluster0.94nsy.mongodb.net/prodAutoglassChatDB?retryWrites=true&w=majority
+mongodb+srv://isaac:i770@cluster0.94nsy.mongodb.net/prodMessengerDB?retryWrites=true&w=majority
 ```
 
 > Dessa forma, será criado um banco de dados no seu cluster e junto com cada _Schema_ vão ser criadas _collections_ (coleções) com os dados inseridos pelas _APIs_.
@@ -1073,18 +1073,4 @@ npm run start
 ### Executando o código do front e back-end no modo `build`
 ```sh
 npm run server
-```
-
-# 🚀 Deploy
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/heroku-1.svg" height="117"></div><br \>
-
-O Deploy da etapa de desenvolvimento foi feita no Heroku: 
-
-[![package.json](https://img.shields.io/badge/-package.json-fff?style=social&logo=Node.js&logoColor=green)](#)
-```json
-```
-
-[![Heroku](https://img.shields.io/badge/-Procfile-000?style=social&logo=Heroku&logoColor=430098)](#)
-```
-
 ```
