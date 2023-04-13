@@ -876,78 +876,7 @@ http://res.cloudinary.com/isaacalves7
 https://api.cloudinary.com/v1_1/isaacalves7/image/upload
 ```
 
-# 🔐 Chat privado
-Até o momento, nosso chat permanecia público para qualquer usuário entrar em contato entre si. No entanto, o usuário cliente precisa ter uma conversa específica somente com aquele usuário vendedor que atende ele, para fornecer atendimento para cada consulta dos produtos da AUTOGLASS.
-
-## Relação entre cliente e vendedor
-Os usuários (cliente e vendedor) precisam se situar na **mesma região** e o vendedor possuir um **número do chamado** para o melhor atendimento e consulta acerca dos produtos da AUTOGLASS.
-
-### Regiões da rede AUTOGLASS
-- AM (Amazônia)
-- AL (Alagoas)
-- BA (Bahia)
-- CE (Ceará)
-- DF (Distrito Federal)
-- ES (Espírito Santo)
-- GO (Goiás)
-- MA (Maranhão)
-- MG (Minas Gerais)
-- MS (Mato Grosso do Sul)
-- MT (Mato Grosso)
-- PA (Pará)
-- PI (Piauí)
-- PB (Paraíba)
-- PE (Pernambuco)
-- PR (Paraná)
-- RJ (Rio de Janeiro)
-- RN (Rio Grande do Norte)
-- RS (Rio Grande do Sul)
-- SE (Sergipe)
-- SP (São Paulo)
-- SC (Santa Catarina)
-- TO (Tocantins)
-
-### Usuários do Chat da AUTOGLASS
-- Consumidor (cliente da AUTOGLASS)
-- Segurado (cliente da AUTOGLASS)
-- Corretor (cliente da AUTOGLASS)
-- Lojista (cliente da AUTOGLASS)
-- Oficina (cliente da AUTOGLASS)
-- Vendedor (atendente da AUTOGLASS)
-
 Com o relacionamento de dados entre entidades (cliente e o vendedor), haverá uma "ocultação" de usuários de outras regiões para o vendedor permitindo somente ter contato com o cliente daquela região.
-
-#### Área do Chat
-- https://www.chat.autoglass.com.br/
-
-Esse é um subdomínio da AUTOGLASS referente a área principal do chat. No entanto, quem não estiver autenticado permanece na área de Login, diferente de quem já está autenticado que permanece na área do chat.
-
-#### Área do Login para clientes e vendedores
-- https://www.chat.autoglass.com.br/login
-
-Nessa área, é necessário preencher o campo de **email** e **senha** do usuário (cliente ou vendedor).
-
-#### Área de Cadastro para vendedores
-- https://www.chat.autoglass.com.br/cadastrar/vendedor
-
-Nessa área, é necessário preencher o campo de **nome**, **email**, **senha**, **confirmar senha**, **telefone**, **cargo**, **número do chamado**, **matrícula do vendedor**, **região** e **selecionar imagem** do vendedor. Dessa forma, o sistema irá distinguir os usuários com base nesses dados de uma única área de cadastro.
-
-> **Obs**: Todas essas informações irão ser salvas e enviadas para a descrição do vendedor do chat, exceto senha e confirmar senha.
-
-#### Área de Cadastro para clientes
-- https://www.chat.autoglass.com.br/cadastrar/cliente
-
-Nessa área, é necessário preencher o campo de **nome**, **email**, **senha**, **confirmar senha**, **cnpj**, **telefone**, **cargo**, **tipo de negócio**, **número do chamado**, **região** e **selecionar imagem** do cliente. Dessa forma, o sistema irá distinguir os usuários com base nesses dados de uma única área de cadastro.
-
-> **Obs**: Todas essas informações irão ser salvas e enviadas para a descrição do cliente do chat, exceto senha e confirmar senha.
-
-## Área do Cliente
-As áreas principais são permanecidas como padrão, o que diferencia são os dados, portanto o cliente da AUTOGLASS precisa declarar na **área de declaração** o **CNPJ** da empresa.
-
-## Área do Vendedor
-As áreas principais são permanecidas como padrão, o que diferencia são os dados, portanto o vendedor precisa declarar na **área de declaração** a sua **matrícula** da empresa AUTOGLASS.
-
----
 
 # ⚙️ Testando as APIs com Postman
 <div align="center"><a href="https://www.postman.com/"><img src="https://cdn.worldvectorlogo.com/logos/postman.svg" height="177"></a></div>
@@ -1002,12 +931,7 @@ A rota `/api/auth/register` serve para cadastrar um novo usuário pela API até 
     "username":"Isaac",
     "mail":"isaac@example.com",
     "password":"12345678",
-    "ocupation":"Consumidor (Cliente)",
-    "cnpj":"12114536762353",
     "tel":"+55 21 99527-2677",
-    "instalacao": "Não",
-    "estoque": "Sim",
-    "servico": "Leve (Veículo pequeno)",
     "pic": "https://avatars.githubusercontent.com/u/61624336?v=4"
 }
 ```
