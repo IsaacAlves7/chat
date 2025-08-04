@@ -1,0 +1,20 @@
+{
+  "name": "chat-room",
+  "version": "1.0.0",
+  "description": "<!--\r https://youtu.be/59pumSluRj4\r https://youtu.be/Q-y8ASwOYgQ\r https://youtu.be/aLCu3vWot2E\r https://youtu.be/oYMtCGfYMB8\r https://youtu.be/cnxrhXORmnE\r https://youtu.be/CkRGJC0ytdU\r https://youtu.be/vl5CJIhy5oU\r https://youtu.be/SYP54qp4aMM\r https://youtu.be/NHCOPoqqFPc\r https://youtu.be/8e_4KIj4jBs",
+  "homepage": "https://github.com/IsaacAlves7/chat#readme",
+  "bugs": {
+    "url": "https://github.com/IsaacAlves7/chat/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaacAlves7/chat.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
