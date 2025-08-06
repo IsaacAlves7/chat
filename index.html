@@ -1,24 +1,80 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  <script src="/socket.io/socket.io.js"node></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Room App</title>
 </head>
 <body>
+
   <div class="container">
     <br>
     <div class="jumbotron">
-     <h1 class="display-4">Send Message</h1>
+     <h1 class="display-4">Chat Room</h1>
      <br>
-     <input class="form-control" placeholder="Name">
+     <form id="chatForm">
+     <input id="name" class="form-control" placeholder="Name">
      <br>
-     <button id="send" class="btn btn-success">Send</button>
+     <textarea id="message" class="form-control" placeholder="Message"></textarea>
+     <br>
+     <button type="button" id="send" class="btn btn-success">Send</button>
+     </form>
     </div>
+    <br>
     <div id="messages">
         
     </div>
   </div>
-  <script>
+  
+<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+<script type="text/javascript">
+      // 5. Initialize socket.io
+      var socket = io();
+      // 1. Add and get messages
+      $(() => {
+          $('#send').click((event) => {
+            event.preventDefault(); // Prevent form submission (2x undefined error!)
+              var message = {name: $('#name').val(), message: $('#message').val()};
+              // const name = message.name;
+              postMessage(message);
+          });
+        getMessages();
+      });
+      // 6. Listen for messages from the server
+      socket.on("message", addMessages);
 
+      // 2. Add message to messages div function
+      function addMessages(message){
+        $('#messages').append(`<h4>${message.name}</h4> <p>${message.message}</p>`);
+      }
+
+      // 3. Get messages from server function
+      function getMessages(){
+        $.get("/messages", (data) => {
+          data.forEach(addMessages);
+        });
+      }
+
+      // 4. Send message to server function (From UI)
+      function postMessage(message){
+        // Alerts
+          // if (name) {
+                $.ajax({
+                  url: "/messages",
+                  type: "POST",
+                  contentType: "application/json",
+                  data: JSON.stringify(message),
+                  // success: function(data){
+                  //   addMessages(message);
+                  // }
+                });
+          // } else {
+          //   $('#messages').append(`<div class="alert alert-danger">Please enter a name</div>`);
+          // }
+      }
   </script>
 </body>
 </html>
