@@ -1,8 +1,14 @@
+// Monolithic server using Express, Socket.io, and Mongoose
 var express = require("express");
 const bodyParser = require('body-parser');
 var app = express();
 var http = require("http").Server(app);
 var io = require("socket.io")(http);
+var mongoose = require("mongoose");
+var dotenv = require("dotenv").config();
+
+// Connect to MongoDB using Mongoose
+db = process.env.URL;
 
 // Middleware to serve static files from the current directory
 app.use(express.static(__dirname))
@@ -28,7 +34,17 @@ io.on("connection", (socket) => {
   console.log("A user connected");  
 });
 
-// Definindo a porta junto com uma função callback
+// Connect to MongoDB
+mongoose.connect(db, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+}).then(() => {
+  console.log("Connected to MongoDB");
+}).catch(err => {
+  console.error("Error connecting to MongoDB:", err);
+});
+
+// Setting up the server to listen on port 8080 with a callback
 var server = http.listen(8080, () => {
   console.log("Server is listening on port", server.address().port);
 })
