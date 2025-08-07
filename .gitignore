@@ -1,5 +1,4 @@
 .app
 .server
 .Messenger Clone
-.node_modules
-./node_modules
+.env

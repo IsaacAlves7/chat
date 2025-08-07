@@ -24,14 +24,28 @@ app.get("/messages", (req, res) => {
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.post("/messages", (req, res) => {
-  console.log(req.body);
-  io.emit("message", req.body); // Emit the message to all connected clients
-  messages.push(req.body);
-  res.sendStatus(200); // OK
-});
+app.post("/messages", async (req, res) => {
+  // Recentes versões do Mongoose, o método save() não aceita mais callback.
+  try {
+    const message = new Message(req.body);
+    await message.save();
+    console.log(req.body);
+    io.emit("message", req.body);
+    messages.push(req.body);
+    res.sendStatus(200);
+  } catch (err) {
+    console.error(err);
+    res.sendStatus(500);
+  }
+ }); 
 io.on("connection", (socket) => {
   console.log("A user connected");  
+});
+
+// Model for messages
+var Message = mongoose.model("Message", {
+  name: String,
+  message: String
 });
 
 // Connect to MongoDB
@@ -47,4 +61,4 @@ mongoose.connect(db, {
 // Setting up the server to listen on port 8080 with a callback
 var server = http.listen(8080, () => {
   console.log("Server is listening on port", server.address().port);
-})
+});
