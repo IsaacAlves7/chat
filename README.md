@@ -61,3 +61,22 @@ Como projetamos um aplicativo de bate-papo como WhatsApp, Facebook Messenger ou 
 - Node-Sass
 - JWT
 - WebRTC
+
+Fluxo de login do usuário:
+
+1. Passo 1: Alice faz login no aplicativo de bate-papo e estabelece uma conexão de soquete da web com o lado do servidor.
+2. Passos 2-4: O serviço de presença recebe a notificação de Alice, atualiza sua presença e notifica os amigos de Alice sobre sua presença.
+
+Fluxo de mensagens:
+
+- Passos 1-2: Alice envia uma mensagem de bate-papo para Bob. A mensagem de chat é roteada para o Serviço de Chat A.
+
+- Etapas 3 a 4: A mensagem de chat é enviada para o serviço de sequenciamento, que gera uma ID exclusiva e é mantida no repositório de mensagens.
+
+- Passo 5: A mensagem de chat é enviada para a fila de sincronização de mensagens para sincronizar com o serviço de chat do Bob.
+
+- Passo 6: Antes de encaminhar a mensagem, o serviço de sincronização de mensagens verifica a presença de Bob:
+a) Se Bob estiver online, a mensagem de bate-papo será enviada para o serviço de bate-papo B.
+b) Se Bob estiver offline, a mensagem será enviada para o servidor de push e enviada para o dispositivo de Bob.
+
+- Etapas 7 a 8: Se Bob estiver online, a mensagem de bate-papo será enviada para Bob por meio do soquete da Web
