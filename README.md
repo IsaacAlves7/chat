@@ -41,7 +41,7 @@ Essa aplicação foi feita com MERN stack (MongoDB, Express, React.js e Node.js)
 ## Connections, Auth, HTTP-clients e middlewares
 Como projetamos um aplicativo de bate-papo como WhatsApp, Facebook Messenger ou Discord? O diagrama abaixo mostra um design para um aplicativo de bate-papo 1 para 1 simplificado.
 
-<img height="777" align="right" src="https://github.com/user-attachments/assets/cfd169a6-d9c9-40a0-93de-11d220baab85" />
+<img height="477" align="right" src="https://github.com/user-attachments/assets/cfd169a6-d9c9-40a0-93de-11d220baab85" />
 
 - Axios
 - CORS
@@ -52,7 +52,6 @@ Como projetamos um aplicativo de bate-papo como WhatsApp, Facebook Messenger ou 
 - JWT
 - errorhandler
 - method-override
-
 - React
 - Redux
 - Socket.io
