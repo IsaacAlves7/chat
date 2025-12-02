@@ -19,11 +19,11 @@ https://youtu.be/43wwRPwQhvM
 
 Essa aplicação foi feita com MERN stack (MongoDB, Express, React.js e Node.js) e algumas bibliotecas e APIs JavaScript para a construção de funcionalidades importantes no projeto.
 
-## APIs
+APIs:
 - REST API
 - Cloudinary
 
-## Front-end stylesheet
+Front-end stylesheet:
 - Bootstrap
 - Material-UI
 - Chakra-UI
@@ -31,15 +31,14 @@ Essa aplicação foi feita com MERN stack (MongoDB, Express, React.js e Node.js)
 - Styled-components
 - CSS
 
-## Bibliotecas
+Bibliotecas:
 - Socket.io (SocketIO)
 - WebRTC
 - Pusher
 - SocketIO
 - Twilio
 
-## Connections, Auth, HTTP-clients e middlewares
-Como projetamos um aplicativo de bate-papo como WhatsApp, Facebook Messenger ou Discord? O diagrama abaixo mostra um design para um aplicativo de bate-papo 1 para 1 simplificado.
+Connections, Auth, HTTP-clients e middlewares: Como projetamos um aplicativo de bate-papo como WhatsApp, Facebook Messenger ou Discord? O diagrama abaixo mostra um design para um aplicativo de bate-papo 1 para 1 simplificado.
 
 <img height="477" align="right" src="https://github.com/user-attachments/assets/cfd169a6-d9c9-40a0-93de-11d220baab85" />
 
