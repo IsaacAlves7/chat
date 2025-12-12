@@ -14,10 +14,10 @@ https://youtu.be/8e_4KIj4jBs
 https://youtu.be/43wwRPwQhvM
 -->
 
-# 💬 Facebook Messenger Clone
+# 💬 Chat Application
 <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg" height="77" align="right">
 
-Essa aplicação foi feita com MERN stack (MongoDB, Express, React.js e Node.js) e algumas bibliotecas e APIs JavaScript para a construção de funcionalidades importantes no projeto.
+Essa aplicação de <a href="https://medium.com/@m.romaniiuk/system-design-chat-application-1d6fbf21b372">chat</a> foi feita com MERN stack (MongoDB, Express, React.js e Node.js) e algumas bibliotecas e APIs JavaScript para a construção de funcionalidades importantes no projeto.
 
 APIs:
 - REST API
