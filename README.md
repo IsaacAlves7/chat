@@ -79,3 +79,5 @@ a) Se Bob estiver online, a mensagem de bate-papo será enviada para o serviço 
 b) Se Bob estiver offline, a mensagem será enviada para o servidor de push e enviada para o dispositivo de Bob.
 
 - Etapas 7 a 8: Se Bob estiver online, a mensagem de bate-papo será enviada para Bob por meio do soquete da Web
+
+<img width="517" height="443" alt="Captura de tela 2026-04-03 165707" src="https://github.com/user-attachments/assets/1d7e1e0c-9fae-4ed7-854a-a359bcc558cf" />
